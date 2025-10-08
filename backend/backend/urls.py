@@ -20,5 +20,6 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('api.urls')),# Include the URLs from the api app
-    path('earthquakes/', include('earthquakes.urls')),# Include the URLs from the api app
+    path('api/earthquakes/', include('earthquakes.urls')),# Include the URLs from the api app
+    path("api/ai/", include("ai.urls")),# Include the URLs from the ai app
 ]

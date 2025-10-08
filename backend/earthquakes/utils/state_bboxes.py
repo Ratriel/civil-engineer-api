@@ -1,5 +1,3 @@
-# backend/earthquakes/utils/state_bboxes.py
-
 STATE_BBOXES = {
     "california": {
         "min_lat": 32.534156,
@@ -31,5 +29,28 @@ STATE_BBOXES = {
         "min_lon": -79.762152,
         "max_lon": -71.852706,
     },
-    # 👉 puedes seguir agregando más estados poco a poco
+    "oregon": {
+        "min_lat": 41.991794,
+        "max_lat": 46.292035,
+        "min_lon": -124.703541,
+        "max_lon": -116.463262,
+    },
+    "nevada": {
+        "min_lat": 35.001857,
+        "max_lat": 42.002207,
+        "min_lon": -120.005746,
+        "max_lon": -114.039648,
+    },
+    "colorado": {
+        "min_lat": 36.992426,
+        "max_lat": 41.003444,
+        "min_lon": -109.060253,
+        "max_lon": -102.041524,
+    },
+    "hawaii": {
+        "min_lat": 18.910361,
+        "max_lat": 20.917881,
+        "min_lon": -160.247115,
+        "max_lon": -154.806773,
+    },
 }
