@@ -2,14 +2,54 @@
   "radius_37.77_-122.42_100": {
     "type": "FeatureCollection",
     "metadata": {
-      "generated": 1759873009000,
+      "generated": 1759892379000,
       "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-01-01&endtime=2025-12-31&latitude=37.77&longitude=-122.42&maxradiuskm=100",
       "title": "USGS Earthquakes",
       "status": 200,
       "api": "1.14.1",
-      "count": 1233
+      "count": 1234
     },
     "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "mag": 2.08,
+          "place": "13 km NE of Alum Rock, CA",
+          "time": 1759872964150,
+          "updated": 1759879339916,
+          "tz": null,
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75246301",
+          "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75246301&format=geojson",
+          "felt": null,
+          "cdi": null,
+          "mmi": null,
+          "alert": null,
+          "status": "automatic",
+          "tsunami": 0,
+          "sig": 67,
+          "net": "nc",
+          "code": "75246301",
+          "ids": ",nc75246301,",
+          "sources": ",nc,",
+          "types": ",nearby-cities,origin,phase-data,scitech-link,",
+          "nst": 5,
+          "dmin": 0.2308,
+          "rms": 0.07,
+          "gap": 147,
+          "magType": "md",
+          "type": "earthquake",
+          "title": "M 2.1 - 13 km NE of Alum Rock, CA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.717834472656,
+            37.4506683349609,
+            16.5100002288818
+          ]
+        },
+        "id": "nc75246301"
+      },
       {
         "type": "Feature",
         "properties": {
@@ -56,17 +96,17 @@
           "mag": 2.68,
           "place": "8 km NE of Alum Rock, CA",
           "time": 1759840637740,
-          "updated": 1759872585525,
+          "updated": 1759884396864,
           "tz": null,
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75246051",
           "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75246051&format=geojson",
-          "felt": 35,
+          "felt": 39,
           "cdi": 3.4,
           "mmi": null,
           "alert": null,
           "status": "automatic",
           "tsunami": 0,
-          "sig": 122,
+          "sig": 124,
           "net": "nc",
           "code": "75246051",
           "ids": ",nc75246051,",
@@ -49339,5 +49379,940 @@
       38.663,
       31.58
     ]
-  }
+  },
+  "recent_automatic": [
+    {
+      "Fecha": "2025-10-08",
+      "Hora": "12:36:52",
+      "Mag": "1.5",
+      "Prof": "7",
+      "Localizacion": "4.2 km al Norte de GUADALAJARA, Tierras Morenas, Tilaran, Guanacaste ",
+      "Rev": "-",
+      "Lat": "10.5995",
+      "Lon": "-84.9643"
+    },
+    {
+      "Fecha": "2025-10-08",
+      "Hora": "11:52:49",
+      "Mag": "2.6",
+      "Prof": "9",
+      "Localizacion": "2.2 km al Norte de GUADALAJARA, Tierras Morenas, Tilaran, Guanacaste ",
+      "Rev": "-",
+      "Lat": "10.5812",
+      "Lon": "-84.9669"
+    },
+    {
+      "Fecha": "2025-10-08",
+      "Hora": "11:23:34",
+      "Mag": "2.5",
+      "Prof": "44",
+      "Localizacion": "2.0 km al Suroeste de COCOROCA, Chomes, Puntarenas, Puntarenas ",
+      "Rev": "-",
+      "Lat": "10.049",
+      "Lon": "-84.9584"
+    },
+    {
+      "Fecha": "2025-10-08",
+      "Hora": "05:58:48",
+      "Mag": "4.7",
+      "Prof": "147",
+      "Localizacion": "315.8 km al Suroeste de San Salvador, -, -, El Salvador ",
+      "Rev": "-",
+      "Lat": "10.9706",
+      "Lon": "-90.087"
+    },
+    {
+      "Fecha": "2025-10-08",
+      "Hora": "05:31:39",
+      "Mag": "2.3",
+      "Prof": "44",
+      "Localizacion": "2.1 km al Noroeste de BAJO TALAMANCA, Piedades Sur, San Ramon, Alajuela ",
+      "Rev": "-",
+      "Lat": "10.0472",
+      "Lon": "-84.5854"
+    },
+    {
+      "Fecha": "2025-10-08",
+      "Hora": "04:34:01",
+      "Mag": "1.9",
+      "Prof": "14",
+      "Localizacion": "4.6 km al Suroeste de BAJO LOS CARTAGOS, Cote, Guatuso, Alajuela ",
+      "Rev": "-",
+      "Lat": "10.6175",
+      "Lon": "-84.9839"
+    },
+    {
+      "Fecha": "2025-10-08",
+      "Hora": "04:17:54",
+      "Mag": "2.9",
+      "Prof": "3",
+      "Localizacion": "27.2 km al Noroeste de PLAYA GRANDE, Sardinal, Carrillo, Guanacaste ",
+      "Rev": "-",
+      "Lat": "10.5939",
+      "Lon": "-86.0297"
+    },
+    {
+      "Fecha": "2025-10-08",
+      "Hora": "03:17:58",
+      "Mag": "1.7",
+      "Prof": "12",
+      "Localizacion": "3.5 km al Suroeste de BAJO LOS CARTAGOS, Cote, Guatuso, Alajuela ",
+      "Rev": "-",
+      "Lat": "10.6083",
+      "Lon": "-84.9554"
+    },
+    {
+      "Fecha": "2025-10-08",
+      "Hora": "02:22:59",
+      "Mag": "1.9",
+      "Prof": "8",
+      "Localizacion": "2.7 km al Noreste de GUADALAJARA, Tierras Morenas, Tilaran, Guanacaste ",
+      "Rev": "-",
+      "Lat": "10.5858",
+      "Lon": "-84.9652"
+    },
+    {
+      "Fecha": "2025-10-08",
+      "Hora": "02:16:42",
+      "Mag": "2.2",
+      "Prof": "11",
+      "Localizacion": "11.1 km al Suroeste de MALPAIS, Cobano, Puntarenas, Puntarenas ",
+      "Rev": "-",
+      "Lat": "9.5649",
+      "Lon": "-85.236"
+    },
+    {
+      "Fecha": "2025-10-08",
+      "Hora": "02:13:09",
+      "Mag": "2.5",
+      "Prof": "197",
+      "Localizacion": "9.1 km al Oeste de PENAS BLANCAS, La Cruz, La Cruz, Guanacaste ",
+      "Rev": "-",
+      "Lat": "11.227",
+      "Lon": "-85.6908"
+    },
+    {
+      "Fecha": "2025-10-08",
+      "Hora": "01:19:48",
+      "Mag": "1.5",
+      "Prof": "38",
+      "Localizacion": "1.0 km al Noroeste de DESCONOCIDO, Naranjito, Aguirre, Puntarenas ",
+      "Rev": "-",
+      "Lat": "9.427",
+      "Lon": "-84.0509"
+    },
+    {
+      "Fecha": "2025-10-08",
+      "Hora": "00:33:06",
+      "Mag": "1.8",
+      "Prof": "14",
+      "Localizacion": "3.6 km al Norte de GUADALAJARA, Tierras Morenas, Tilaran, Guanacaste ",
+      "Rev": "-",
+      "Lat": "10.5938",
+      "Lon": "-84.9716"
+    },
+    {
+      "Fecha": "2025-10-07",
+      "Hora": "23:42:50",
+      "Mag": "3.9",
+      "Prof": "39",
+      "Localizacion": "302.3 km al Noreste de Prinzapolca, -, -, Nicaragua ",
+      "Rev": "-",
+      "Lat": "14.0849",
+      "Lon": "-80.897"
+    },
+    {
+      "Fecha": "2025-10-07",
+      "Hora": "22:37:37",
+      "Mag": "2.3",
+      "Prof": "28",
+      "Localizacion": "2.0 km al Suroeste de MALPAIS, Cobano, Puntarenas, Puntarenas ",
+      "Rev": "-",
+      "Lat": "9.5853",
+      "Lon": "-85.1513"
+    },
+    {
+      "Fecha": "2025-10-07",
+      "Hora": "22:28:20",
+      "Mag": "2.1",
+      "Prof": "15",
+      "Localizacion": "1.3 km al Suroeste de ABUELA, Cobano, Puntarenas, Puntarenas ",
+      "Rev": "-",
+      "Lat": "9.6953",
+      "Lon": "-85.0359"
+    },
+    {
+      "Fecha": "2025-10-07",
+      "Hora": "22:19:04",
+      "Mag": "3.1",
+      "Prof": "20",
+      "Localizacion": "38.4 km al Suroeste de ESPADILLA SUR, Quepos, Aguirre, Puntarenas ",
+      "Rev": "-",
+      "Lat": "9.0957",
+      "Lon": "-84.3413"
+    },
+    {
+      "Fecha": "2025-10-07",
+      "Hora": "20:55:12",
+      "Mag": "2.0",
+      "Prof": "16",
+      "Localizacion": "7.1 km al Noreste de PURISQUI, Telire, Talamanca, Limon ",
+      "Rev": "-",
+      "Lat": "9.4238",
+      "Lon": "-82.9058"
+    },
+    {
+      "Fecha": "2025-10-07",
+      "Hora": "20:48:29",
+      "Mag": "3.4",
+      "Prof": "-",
+      "Localizacion": "118.5 km al Noroeste de PLAYA GRANDE, Sardinal, Carrillo, Guanacaste ",
+      "Rev": "-",
+      "Lat": "10.8207",
+      "Lon": "-86.8347"
+    },
+    {
+      "Fecha": "2025-10-07",
+      "Hora": "19:58:26",
+      "Mag": "1.6",
+      "Prof": "9",
+      "Localizacion": "4.3 km al Noreste de GUADALAJARA, Tierras Morenas, Tilaran, Guanacaste ",
+      "Rev": "-",
+      "Lat": "10.5993",
+      "Lon": "-84.9622"
+    },
+    {
+      "Fecha": "2025-10-07",
+      "Hora": "19:22:20",
+      "Mag": "2.1",
+      "Prof": "9",
+      "Localizacion": "4.4 km al Sureste de BAJO LOS CARTAGOS, Cote, Guatuso, Alajuela ",
+      "Rev": "-",
+      "Lat": "10.6056",
+      "Lon": "-84.9265"
+    },
+    {
+      "Fecha": "2025-10-07",
+      "Hora": "18:55:28",
+      "Mag": "2.3",
+      "Prof": "94",
+      "Localizacion": "2.0 km al Noroeste de CHORRO, La Cuesta, Corredores, Puntarenas ",
+      "Rev": "-",
+      "Lat": "8.5022",
+      "Lon": "-82.8779"
+    },
+    {
+      "Fecha": "2025-10-07",
+      "Hora": "18:28:39",
+      "Mag": "2.3",
+      "Prof": "7",
+      "Localizacion": "1.8 km al Noreste de GUADALAJARA, Tierras Morenas, Tilaran, Guanacaste ",
+      "Rev": "-",
+      "Lat": "10.5773",
+      "Lon": "-84.9657"
+    },
+    {
+      "Fecha": "2025-10-07",
+      "Hora": "17:44:52",
+      "Mag": "3.3",
+      "Prof": "-",
+      "Localizacion": "133.3 km al Noreste de Almirante, -, -, Panama ",
+      "Rev": "-",
+      "Lat": "9.9894",
+      "Lon": "-81.348"
+    },
+    {
+      "Fecha": "2025-10-07",
+      "Hora": "17:36:18",
+      "Mag": "1.7",
+      "Prof": "13",
+      "Localizacion": "3.2 km al Sur de BAJO LOS CARTAGOS, Cote, Guatuso, Alajuela ",
+      "Rev": "-",
+      "Lat": "10.6101",
+      "Lon": "-84.9483"
+    },
+    {
+      "Fecha": "2025-10-07",
+      "Hora": "16:36:48",
+      "Mag": "1.8",
+      "Prof": "100",
+      "Localizacion": "0.3 km al Noreste de GUACHIPELINES, Jesus, Santa Barbara, Heredia ",
+      "Rev": "-",
+      "Lat": "10.0555",
+      "Lon": "-84.1523"
+    },
+    {
+      "Fecha": "2025-10-07",
+      "Hora": "14:32:23",
+      "Mag": "2.3",
+      "Prof": "56",
+      "Localizacion": "1.2 km al Noroeste de CONCORDIA, Corredor, Corredores, Puntarenas ",
+      "Rev": "-",
+      "Lat": "8.5698",
+      "Lon": "-82.9819"
+    },
+    {
+      "Fecha": "2025-10-07",
+      "Hora": "14:18:13",
+      "Mag": "1.7",
+      "Prof": "19",
+      "Localizacion": "1.4 km al Noroeste de COLONIA JESUS MARIA, Varablanca, Heredia, Heredia ",
+      "Rev": "-",
+      "Lat": "10.1739",
+      "Lon": "-84.0927"
+    },
+    {
+      "Fecha": "2025-10-07",
+      "Hora": "13:24:08",
+      "Mag": "1.8",
+      "Prof": "10",
+      "Localizacion": "4.0 km al Noroeste de GUADALAJARA, Tierras Morenas, Tilaran, Guanacaste ",
+      "Rev": "-",
+      "Lat": "10.5966",
+      "Lon": "-84.9791"
+    },
+    {
+      "Fecha": "2025-10-07",
+      "Hora": "12:07:18",
+      "Mag": "3.0",
+      "Prof": "12",
+      "Localizacion": "68.9 km al Suroeste de SALINAS, Cabo Velas, Santa Cruz, Guanacaste ",
+      "Rev": "-",
+      "Lat": "10.2316",
+      "Lon": "-86.4642"
+    },
+    {
+      "Fecha": "2025-10-07",
+      "Hora": "10:32:32",
+      "Mag": "2.1",
+      "Prof": "24",
+      "Localizacion": "30.0 km al Suroeste de CAMBUTAL, Bahia Ballena, Osa, Puntarenas ",
+      "Rev": "-",
+      "Lat": "9.022",
+      "Lon": "-84.0196"
+    },
+    {
+      "Fecha": "2025-10-07",
+      "Hora": "10:25:23",
+      "Mag": "1.6",
+      "Prof": "10",
+      "Localizacion": "4.2 km al Noreste de SABALITO, Tierras Morenas, Tilaran, Guanacaste ",
+      "Rev": "-",
+      "Lat": "10.5989",
+      "Lon": "-84.9922"
+    }
+  ],
+  "recent_felt": [
+    {
+      "Fecha": "2025-10-06",
+      "Hora": "16:28:34",
+      "Magnitud": "3.4",
+      "Profundidad": "13",
+      "Localizacion": "4 km al Noroeste de Mata de Plátano de Turrubares",
+      "Origen": "Fallamiento Local",
+      "Reportado": "Bijagual de Turrubares",
+      "Latitud": "9.6351",
+      "Longitud": "-84.529"
+    },
+    {
+      "Fecha": "2025-10-06",
+      "Hora": "16:28:34",
+      "Magnitud": "3.4",
+      "Profundidad": "13",
+      "Localizacion": "4 km al Noroeste de Mata de Plátano de Turrubares",
+      "Origen": "Fallamiento Local",
+      "Reportado": "Bijagual de Turrubares",
+      "Latitud": "9.6351",
+      "Longitud": "-84.529"
+    },
+    {
+      "Fecha": "2025-10-04",
+      "Hora": "22:50:44",
+      "Magnitud": "3.3",
+      "Profundidad": "5",
+      "Localizacion": "5 km al Noreste de Tierras Morenas",
+      "Origen": "Fallamiento Local",
+      "Reportado": "Cote, Tilarán, Nuevo Arenal",
+      "Latitud": "10.5911",
+      "Longitud": "-849840"
+    },
+    {
+      "Fecha": "2025-10-06",
+      "Hora": "09:21:49",
+      "Magnitud": "3.7",
+      "Profundidad": "15",
+      "Localizacion": "2 km Nor Oeste de Mata de Plátano de Turrubares",
+      "Origen": "Tectónico por Fallamiento Local",
+      "Reportado": "Turrubares, Herradura y Orotina",
+      "Latitud": "9.6162",
+      "Longitud": "-84.538"
+    },
+    {
+      "Fecha": "2025-10-04",
+      "Hora": "15:08:45",
+      "Magnitud": "4.7",
+      "Profundidad": "7",
+      "Localizacion": "8 km al noroeste de Nuevo Arenal",
+      "Origen": "Tectónico en falla local",
+      "Reportado": "Toda la zona norte desde Liberia hasta Upala y Fortuna de Alajuela",
+      "Latitud": "10.6022",
+      "Longitud": "-84.9478"
+    },
+    {
+      "Fecha": "2025-10-02",
+      "Hora": "03:15:47",
+      "Magnitud": "2.5",
+      "Profundidad": "8",
+      "Localizacion": "2.5 km al sur de Frailes de Desamparados.",
+      "Origen": "Tectónico en falla local",
+      "Reportado": "Aserrí",
+      "Latitud": "9.7288",
+      "Longitud": "-84.0576"
+    },
+    {
+      "Fecha": "2025-09-30",
+      "Hora": "04:04:43",
+      "Magnitud": "2.2",
+      "Profundidad": "9.5",
+      "Localizacion": "4 km al noroeste de Acosta",
+      "Origen": "Tectónico en falla local",
+      "Reportado": "Brasil de Mora, Piedades de Santa Ana, Ciudad Colón",
+      "Latitud": "9.8331",
+      "Longitud": "-84.1757"
+    },
+    {
+      "Fecha": "2025-09-28",
+      "Hora": "23:42:34",
+      "Magnitud": "4.8",
+      "Profundidad": "12",
+      "Localizacion": "30 km al suroeste de Dominical",
+      "Origen": "Tectónico por subducción",
+      "Reportado": "Pacífico Central, Pérez Zeledón, Valle Central",
+      "Latitud": "8.9992",
+      "Longitud": "-83.9723"
+    },
+    {
+      "Fecha": "2025-09-28",
+      "Hora": "23:32:58",
+      "Magnitud": "4.6",
+      "Profundidad": "12",
+      "Localizacion": "32 km al suroeste de Dominical",
+      "Origen": "Tectónico por subducción",
+      "Reportado": "Pacífico Central, Pérez Zeledón, Valle Central",
+      "Latitud": "8.9904",
+      "Longitud": "-83.9929"
+    },
+    {
+      "Fecha": "2025-09-26",
+      "Hora": "21:01:20",
+      "Magnitud": "1.9",
+      "Profundidad": "1",
+      "Localizacion": "2 km al suroeste de Desamparados.",
+      "Origen": "Tectónico en falla local.",
+      "Reportado": "Desamparados, San Francisco de Dos Ríos, Alajuelita, Curridabat, San Sebastian, San Pedro, Zapote.",
+      "Latitud": "9.8923",
+      "Longitud": "-84.0781"
+    },
+    {
+      "Fecha": "2025-09-15",
+      "Hora": "04:22:12",
+      "Magnitud": "2.8",
+      "Profundidad": "6",
+      "Localizacion": "8 km al suroeste de Orosi de Cartago",
+      "Origen": "Fallamiento local",
+      "Reportado": "El Guarco, Orosi",
+      "Latitud": "9.7202",
+      "Longitud": "-83.8818"
+    },
+    {
+      "Fecha": "2025-09-15",
+      "Hora": "00:11:12",
+      "Magnitud": "3.1",
+      "Profundidad": "6",
+      "Localizacion": "8 km al suroeste de Orosi de Cartago",
+      "Origen": "Fallamiento local",
+      "Reportado": "Cartago, El Guarco, Paraiso, Desamparados, Alajuelita, Escazú",
+      "Latitud": "9.7219",
+      "Longitud": "-83.8733"
+    },
+    {
+      "Fecha": "2025-08-31",
+      "Hora": "18:34:01",
+      "Magnitud": "3.8",
+      "Profundidad": "33",
+      "Localizacion": "16 km al suroeste de Manuel Antonio",
+      "Origen": "Subducción",
+      "Reportado": "Aserrí, Quepos y Manuel Antonio",
+      "Latitud": "9.2723",
+      "Longitud": "-84.2445"
+    },
+    {
+      "Fecha": "2025-08-30",
+      "Hora": "08:30:00",
+      "Magnitud": "3.3",
+      "Profundidad": "6",
+      "Localizacion": "2 km Sur Este de Planta Eléctrica Avance. Cartago",
+      "Origen": "Fallamiento Local",
+      "Reportado": "Goicoechea, Coronado, Llano Grandre, Tres Ríos",
+      "Latitud": "9.945",
+      "Longitud": "-83.9405"
+    },
+    {
+      "Fecha": "2025-08-26",
+      "Hora": "03:58:27",
+      "Magnitud": "3.7",
+      "Profundidad": "25",
+      "Localizacion": "19 km al suroeste de Nosara",
+      "Origen": "Subducción",
+      "Reportado": "Nosara",
+      "Latitud": "9.9196",
+      "Longitud": "-85.814"
+    },
+    {
+      "Fecha": "2025-08-23",
+      "Hora": "09:26:39",
+      "Magnitud": "1.8",
+      "Profundidad": "4",
+      "Localizacion": "Inmediaciones de la Iglesia de la Soledad. San José",
+      "Origen": "Tectónico por Fallamiento Local",
+      "Reportado": "Zapote, San José, San Pedro, Guadalupe",
+      "Latitud": "9.9313",
+      "Longitud": "-84.0757"
+    },
+    {
+      "Fecha": "2025-08-23",
+      "Hora": "00:31:19",
+      "Magnitud": "2.1",
+      "Profundidad": "5",
+      "Localizacion": "Inmediaciones de Paseo de Los Estudiantes. (Barrio Chino)",
+      "Origen": "Tectónico por Fallamiento Local",
+      "Reportado": "San Pedro, Zapote, Tibás",
+      "Latitud": "9.9299",
+      "Longitud": "-84.0726"
+    },
+    {
+      "Fecha": "2025-08-22",
+      "Hora": "16:55:06",
+      "Magnitud": "3.1",
+      "Profundidad": "4",
+      "Localizacion": "Cercanías de Barrio La California. San José.",
+      "Origen": "Tectónico por Fallamiento Local",
+      "Reportado": "San José, Guadalupe, San Pedro, Heredia",
+      "Latitud": "9.9329",
+      "Longitud": "-84.0681"
+    },
+    {
+      "Fecha": "2025-08-22",
+      "Hora": "00:45:36",
+      "Magnitud": "4.1",
+      "Profundidad": "4",
+      "Localizacion": "Cercanías de Barrio Tournón. San José",
+      "Origen": "Tectónico por Fallamiento Local",
+      "Reportado": "Fuerte en todo el Valle Central",
+      "Latitud": "9.9419",
+      "Longitud": "-84.0737"
+    },
+    {
+      "Fecha": "2025-08-21",
+      "Hora": "23:01:51",
+      "Magnitud": "3.7",
+      "Profundidad": "13",
+      "Localizacion": "1 km Norte de Pradera de Turrialba. Cartago",
+      "Origen": "Tectónico por Fallamiento Local",
+      "Reportado": "Paraíso, Cartago, Turrialba",
+      "Latitud": "9.9831",
+      "Longitud": "-83.6812"
+    },
+    {
+      "Fecha": "2025-08-10",
+      "Hora": "04:11:19",
+      "Magnitud": "2.6",
+      "Profundidad": "5",
+      "Localizacion": "San José de la Montaña de Ciudad Quesada",
+      "Origen": "Fallamiento local",
+      "Reportado": "Ciudad Quesada",
+      "Latitud": "10.2383",
+      "Longitud": "-84.345"
+    }
+  ],
+  "historical": [
+    {
+      "AÑO": "1756",
+      "FECHA": "14 de Julio",
+      "REGION_EPICENTRAL": "NO UBICADA",
+      "MAGNITUD": "-",
+      "EFECTOS": "Sentido con gran duración en Cartago"
+    },
+    {
+      "AÑO": "1798",
+      "FECHA": "21 de Febrero",
+      "REGION_EPICENTRAL": "NO UBICADA",
+      "MAGNITUD": "-",
+      "EFECTOS": "Fuerte oleaje y muchos sismos sentidos en Barra de Matina."
+    },
+    {
+      "AÑO": "1803",
+      "FECHA": "27 de Diciembre",
+      "REGION_EPICENTRAL": "NO UBICADA",
+      "MAGNITUD": "-",
+      "EFECTOS": "Iglesia de Boruca arruinada, daños en Cartago"
+    },
+    {
+      "AÑO": "1821",
+      "FECHA": "10 de Abril",
+      "REGION_EPICENTRAL": "NO UBICADA",
+      "MAGNITUD": "-",
+      "EFECTOS": "Tsunami y licuefacción en Barra de Matina, daños en Cartago y San José"
+    },
+    {
+      "AÑO": "1822",
+      "FECHA": "7 de Mayo",
+      "REGION_EPICENTRAL": "Litoral Atlántico",
+      "MAGNITUD": "-",
+      "EFECTOS": "Tsunami y licuefacción en Barra de Matina, daños en Cartago y San José"
+    },
+    {
+      "AÑO": "1827",
+      "FECHA": "3 de Abril",
+      "REGION_EPICENTRAL": "Guanacaste",
+      "MAGNITUD": "-",
+      "EFECTOS": "Iglesia de Nicoya arruinada"
+    },
+    {
+      "AÑO": "1841",
+      "FECHA": "2 de Setiembre",
+      "REGION_EPICENTRAL": "Cartago",
+      "MAGNITUD": "-",
+      "EFECTOS": "Primera destrucción de Cartago, 38 muertos"
+    },
+    {
+      "AÑO": "1842",
+      "FECHA": "21 de Marzo",
+      "REGION_EPICENTRAL": "Sur de San José",
+      "MAGNITUD": "-",
+      "EFECTOS": "Daños en Alajuelita y otras poblaciones de San José"
+    },
+    {
+      "AÑO": "1851",
+      "FECHA": "18 de Marzo",
+      "REGION_EPICENTRAL": "Norte de Alajuela y Heredia",
+      "MAGNITUD": "-",
+      "EFECTOS": "Daños en Alajuela, Heredia y San José"
+    },
+    {
+      "AÑO": "1853",
+      "FECHA": "24 de Agosto",
+      "REGION_EPICENTRAL": "Cañas, Guanacaste",
+      "MAGNITUD": "-",
+      "EFECTOS": "Daños en Cañas, deslizamientos en la Cordillera de Guanacaste"
+    },
+    {
+      "AÑO": "1853",
+      "FECHA": "8 de Setiembre",
+      "REGION_EPICENTRAL": "Guanacaste",
+      "MAGNITUD": "-",
+      "EFECTOS": "Daños en Santa Cruz y Filadelfia"
+    },
+    {
+      "AÑO": "1882",
+      "FECHA": "3 de Marzo",
+      "REGION_EPICENTRAL": "NO UBICADA",
+      "MAGNITUD": "-",
+      "EFECTOS": "Sentido en todo el país, daños en el Valle Central y Puntarenas"
+    },
+    {
+      "AÑO": "1888",
+      "FECHA": "30 de Diciembre",
+      "REGION_EPICENTRAL": "Fraijanes, Alajuela",
+      "MAGNITUD": "-",
+      "EFECTOS": "Destrucción en Fraijanes, daños en Alajuela, Heredia y San José, deslizamientos en las laderas del Volcán Poás, 6 muertos"
+    },
+    {
+      "AÑO": "1904",
+      "FECHA": "20 de Diciembre",
+      "REGION_EPICENTRAL": "NO UBICADA",
+      "MAGNITUD": "7.8",
+      "EFECTOS": "Area cubierta se extendió más allá de los límites del país, aparentemente mas fuerte en el Litoral Atlántico"
+    },
+    {
+      "AÑO": "1905",
+      "FECHA": "20 de Enero",
+      "REGION_EPICENTRAL": "Pacífico Central",
+      "MAGNITUD": "-",
+      "EFECTOS": "Sentido desde Nicaragua hasta Panamá, daños al sur de Puntarenas y en el Valle Central"
+    },
+    {
+      "AÑO": "1910",
+      "FECHA": "13 de Abril",
+      "REGION_EPICENTRAL": "Sur Este de San José. (Tablazo)",
+      "MAGNITUD": "-",
+      "EFECTOS": "Daños en San José"
+    },
+    {
+      "AÑO": "1910",
+      "FECHA": "4 de Mayo",
+      "REGION_EPICENTRAL": "Cartago",
+      "MAGNITUD": "-",
+      "EFECTOS": "Segunda destrucción de Cartago, entre 400 y 700 muertos"
+    },
+    {
+      "AÑO": "1911",
+      "FECHA": "10 de Octubre",
+      "REGION_EPICENTRAL": "Guatuso, Alajuela",
+      "MAGNITUD": "-",
+      "EFECTOS": "Deslizamientos y grietas en el suelo en zona epicentral"
+    },
+    {
+      "AÑO": "1912",
+      "FECHA": "12 de Febrero",
+      "REGION_EPICENTRAL": "Tres Ríos",
+      "MAGNITUD": "-",
+      "EFECTOS": "Daños en Tres Ríos"
+    },
+    {
+      "AÑO": "1912",
+      "FECHA": "6 de Junio",
+      "REGION_EPICENTRAL": "Sarchí , Toro Amarillo",
+      "MAGNITUD": "-",
+      "EFECTOS": "Daños en la zona de Sarchí y Toro Amarillo, deslizamientos, avalanchas, 7 muertos"
+    },
+    {
+      "AÑO": "1916",
+      "FECHA": "27 de Febrero",
+      "REGION_EPICENTRAL": "Nor Oeste de Costa Rica",
+      "MAGNITUD": "7.6",
+      "EFECTOS": "Daños en Santa Cruz"
+    },
+    {
+      "AÑO": "1916",
+      "FECHA": "24 de Abril",
+      "REGION_EPICENTRAL": "Litoral Atlántico",
+      "MAGNITUD": "7.6",
+      "EFECTOS": "Daños menores en el Valle Central"
+    },
+    {
+      "AÑO": "1916",
+      "FECHA": "26 de Abril",
+      "REGION_EPICENTRAL": "Litoral Atlántico",
+      "MAGNITUD": "7.3",
+      "EFECTOS": "Pánico en el Valle Central"
+    },
+    {
+      "AÑO": "1924",
+      "FECHA": "4 de Marzo",
+      "REGION_EPICENTRAL": "Orotina",
+      "MAGNITUD": "7.0",
+      "EFECTOS": "Daños en toda la región occidental del Valle Central, más de 70 muertos"
+    },
+    {
+      "AÑO": "1935",
+      "FECHA": "1 de Agosto",
+      "REGION_EPICENTRAL": "Bagaces, Guanacaste",
+      "MAGNITUD": "-",
+      "EFECTOS": "Daños en Bagaces"
+    },
+    {
+      "AÑO": "1939",
+      "FECHA": "18 de Junio",
+      "REGION_EPICENTRAL": "NO UBICADA",
+      "MAGNITUD": "6.5",
+      "EFECTOS": "Daños en el Valle Central"
+    },
+    {
+      "AÑO": "1939",
+      "FECHA": "21 de Diciembre",
+      "REGION_EPICENTRAL": "Entrada al Golfo de Nicoya",
+      "MAGNITUD": "7.3",
+      "EFECTOS": "Daños en el Valle Central, 2 muertos"
+    },
+    {
+      "AÑO": "1939",
+      "FECHA": "22 de Diciembre",
+      "REGION_EPICENTRAL": "Entrada al Golfo de Nicoya",
+      "MAGNITUD": "6.8",
+      "EFECTOS": "Réplica del anterior"
+    },
+    {
+      "AÑO": "1941",
+      "FECHA": "5 de Diciembre",
+      "REGION_EPICENTRAL": "Península de Osa",
+      "MAGNITUD": "7.5",
+      "EFECTOS": "Daños en la fronteriza con Panamá y en el Valle Central"
+    },
+    {
+      "AÑO": "1948",
+      "FECHA": "19 de Noviembre",
+      "REGION_EPICENTRAL": "Región Central",
+      "MAGNITUD": "7.0",
+      "EFECTOS": "Daños leves en el Valle Central"
+    },
+    {
+      "AÑO": "1950",
+      "FECHA": "5 de Octubre",
+      "REGION_EPICENTRAL": "Península de Nicoya",
+      "MAGNITUD": "7.7",
+      "EFECTOS": "Daños en Puntarenas y Valle Central"
+    },
+    {
+      "AÑO": "1951",
+      "FECHA": "22 de Agosto",
+      "REGION_EPICENTRAL": "Sur de Cartago",
+      "MAGNITUD": "-",
+      "EFECTOS": "Destrucción en Paraíso y Orosí, daños en San José"
+    },
+    {
+      "AÑO": "1952",
+      "FECHA": "13 de Mayo",
+      "REGION_EPICENTRAL": "Oeste del Valle Central",
+      "MAGNITUD": "6.9",
+      "EFECTOS": ""
+    },
+    {
+      "AÑO": "1952",
+      "FECHA": "30 de Diciembre",
+      "REGION_EPICENTRAL": "Nor Oeste del Volcán Irazú",
+      "MAGNITUD": "-",
+      "EFECTOS": "Deslizamientos en las faldas del Volcán Irazú, 21 muertos"
+    },
+    {
+      "AÑO": "1953",
+      "FECHA": "7 de Enero",
+      "REGION_EPICENTRAL": "Limón",
+      "MAGNITUD": "-",
+      "EFECTOS": "Daños en Limón"
+    },
+    {
+      "AÑO": "1955",
+      "FECHA": "1 de Setiembre",
+      "REGION_EPICENTRAL": "Toro Amarillo - Zarcero",
+      "MAGNITUD": "-",
+      "EFECTOS": "Daños en Toro Amarillo y Norte de Alajuela, 10 muertos"
+    },
+    {
+      "AÑO": "1956",
+      "FECHA": "19 de Julio",
+      "REGION_EPICENTRAL": "Valle Central",
+      "MAGNITUD": "6.2",
+      "EFECTOS": "Intensidad VI en el Valle Central"
+    },
+    {
+      "AÑO": "1959",
+      "FECHA": "13 de Enero",
+      "REGION_EPICENTRAL": "Pacífico Central",
+      "MAGNITUD": "-",
+      "EFECTOS": "Intensidad VI en el Sector Este del Valle Central"
+    },
+    {
+      "AÑO": "1962",
+      "FECHA": "12 de Marzo",
+      "REGION_EPICENTRAL": "Pacífico Sur",
+      "MAGNITUD": "6.8",
+      "EFECTOS": "Intensidad V en Golfito y Coto 47"
+    },
+    {
+      "AÑO": "1966",
+      "FECHA": "9 de Abril",
+      "REGION_EPICENTRAL": "Pacífico Central",
+      "MAGNITUD": "5.7",
+      "EFECTOS": "Intensidad VI en San Isidro del General"
+    },
+    {
+      "AÑO": "1973",
+      "FECHA": "14 de Abril",
+      "REGION_EPICENTRAL": "Tilarán",
+      "MAGNITUD": "6.5",
+      "EFECTOS": "Daños en Tilarán, deslizamientos, 23 muertos"
+    },
+    {
+      "AÑO": "1978",
+      "FECHA": "22 de Agosto",
+      "REGION_EPICENTRAL": "Sámara",
+      "MAGNITUD": "7.0",
+      "EFECTOS": "Intensidad IV en el Valle Central"
+    },
+    {
+      "AÑO": "1978",
+      "FECHA": "23 de Agosto",
+      "REGION_EPICENTRAL": "Sámara",
+      "MAGNITUD": "7.0",
+      "EFECTOS": "Réplica del anterior"
+    },
+    {
+      "AÑO": "1979",
+      "FECHA": "1 de Julio",
+      "REGION_EPICENTRAL": "Punta Burica",
+      "MAGNITUD": "6.5",
+      "EFECTOS": "Intensidad VI en Paso Canoas"
+    },
+    {
+      "AÑO": "1983",
+      "FECHA": "2 de Abril",
+      "REGION_EPICENTRAL": "Golfito",
+      "MAGNITUD": "7.3",
+      "EFECTOS": "Daños en Golfito, Zona Sur y Valle Central, 1 muerto"
+    },
+    {
+      "AÑO": "1983",
+      "FECHA": "3 de Julio",
+      "REGION_EPICENTRAL": "Pérez Zeledón",
+      "MAGNITUD": "6.1",
+      "EFECTOS": "Daños al Norte de San Isidro del General, deslizamientos, 1 muerto"
+    },
+    {
+      "AÑO": "1989",
+      "FECHA": "26 de Febrero",
+      "REGION_EPICENTRAL": "Los Santos",
+      "MAGNITUD": "4.7",
+      "EFECTOS": "Daños y deslizamientos en Acosta, San José"
+    },
+    {
+      "AÑO": "1990",
+      "FECHA": "25 de Marzo",
+      "REGION_EPICENTRAL": "Entrada al Golfo de Nicoya",
+      "MAGNITUD": "7.0",
+      "EFECTOS": "Daños en Península de Nicoya, Puntarenas y Valle Central, 1 muerto"
+    },
+    {
+      "AÑO": "1990",
+      "FECHA": "Mayo - Junio",
+      "REGION_EPICENTRAL": "Puriscal",
+      "MAGNITUD": "4.5 / 5.0",
+      "EFECTOS": "Enjambre sísmico en la zona de Puriscal. Daños en Puriscal, deslizamientos en Fila de Picagres"
+    },
+    {
+      "AÑO": "1990",
+      "FECHA": "22 de Diciembre",
+      "REGION_EPICENTRAL": "Puriscal",
+      "MAGNITUD": "5.7",
+      "EFECTOS": "Daños en el Valle Central, especialmente en el sector oeste (Alajuela, La Guácima, Atenas, Cuidad Colón, Turrucares, Puriscal), 1 muerto"
+    },
+    {
+      "AÑO": "1991",
+      "FECHA": "22 de Abril",
+      "REGION_EPICENTRAL": "Limón",
+      "MAGNITUD": "7.5",
+      "EFECTOS": "Daños en todo el litoral atlántico, desde Bocas del Toro. Panamá, hasta Batán y Turrialba, deslizamientos en la Cordillera de Talamanca, daños menores en el Valle Central, 50 muertos"
+    },
+    {
+      "AÑO": "1991",
+      "FECHA": "8 de Agosto",
+      "REGION_EPICENTRAL": "Los Santos",
+      "MAGNITUD": "4.9",
+      "EFECTOS": "Daños en Frailes de Desamparados, San Pablo de León Cortés y Corralillo de Cartago"
+    },
+    {
+      "AÑO": "1992",
+      "FECHA": "6 de Marzo",
+      "REGION_EPICENTRAL": "1.5 Kms Sur Este de Naranjo",
+      "MAGNITUD": "6.0",
+      "EFECTOS": "Daños en la zona epicentral"
+    },
+    {
+      "AÑO": "1993",
+      "FECHA": "10 de Julio",
+      "REGION_EPICENTRAL": "12 Kms Sur de Turrialba",
+      "MAGNITUD": "5.0",
+      "EFECTOS": "Daños en la zona epicentral y Turrialba"
+    }
+  ]
 }

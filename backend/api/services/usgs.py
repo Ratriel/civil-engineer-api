@@ -2,7 +2,6 @@
 from django.http import JsonResponse
 from datetime import datetime
 import requests
-from ...earthquakes.models import Earthquake
 from earthquakes.utils.state_bboxes import STATE_BBOXES
 
 
