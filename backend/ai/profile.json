@@ -1,0 +1,155 @@
+{
+    "name": "Ariel Lopez Castillo",
+    "title": "Full Stack Web Developer",
+    "location": "Myrtle Beach, SC 29575",
+    "contact": {
+        "phone": "(843) 504-1800",
+        "email": "ariel_91_aj@hotmail.com",
+        "linkedin": "https://www.linkedin.com/in/ariel-lopez-castillo91/",
+        "github": "https://github.com/Ratriel"
+    },
+    "summary": "Experienced Full Stack Developer with 8+ years building scalable web and mobile applications. Skilled in Python, React, Node.js, and cloud technologies (AWS, Azure, Firebase), with a strong background in AI integrations, data scraping, and automation. Proven experience leading projects, mentoring teams, and delivering client-facing solutions for U.S. markets. Passionate about leveraging AI and modern technologies to build impactful software solutions.",
+    "skills": {
+        "frontend_mobile": [
+            "React",
+            "React Native",
+            "Angular",
+            "RxJS",
+            "Material-UI",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "backend_api": [
+            "Python (Django, Flask)",
+            "Node.js",
+            "Express",
+            "C#",
+            ".NET Core",
+            "RESTful APIs"
+        ],
+        "databases": [
+            "PostgreSQL",
+            "SQL Server",
+            "ORM",
+            "Alembic",
+            "Entity Framework"
+        ],
+        "cloud_devops": [
+            "AWS",
+            "Azure",
+            "Firebase",
+            "Docker",
+            "Docker Compose",
+            "GitHub Actions",
+            "CI/CD pipelines"
+        ],
+        "testing_qa": [
+            "Unit testing",
+            "Jest",
+            "Karma",
+            "Mockups",
+            "TDD",
+            "BDD"
+        ],
+        "ai_automation": [
+            "AI agents",
+            "data scraping (BeautifulSoup, Playwright, Requests)",
+            "automation pipelines"
+        ],
+        "design_collaboration": [
+            "Figma",
+            "Agile/Scrum",
+            "Jira",
+            "mentoring & team leadership"
+        ]
+    },
+    "experience": [
+        {
+            "role": "Software Developer / Lead Engineer",
+            "company": "Accenture",
+            "location": "Costa Rica (Remote)",
+            "period": "Nov 2023 – Present",
+            "responsibilities": [
+                "Lead full-stack and backend development projects, combining hands-on coding, system design, and team leadership.",
+                "Built microservices with Flask, SQLAlchemy, Alembic, and Django REST APIs integrating PostgreSQL and other data sources.",
+                "Developed Python scripts using Playwright, Requests, and BeautifulSoup to extract and process data for APIs.",
+                "Designed AI agents, defined system prompts, integrated external tools, and deployed pipelines on Azure using Blob Storage.",
+                "Managed Docker environments, Docker Compose configurations, and database migrations.",
+                "Mentored junior engineers, led project planning meetings, sprint demos, and client presentations."
+            ]
+        },
+        {
+            "role": "Software Developer / Full Stack Engineer",
+            "company": "First Factory",
+            "location": "Costa Rica (Remote)",
+            "period": "Sep 2020 – Oct 2023",
+            "responsibilities": [
+                "Contributed to internal and U.S.-based client projects via staff augmentation.",
+                "Developed React (web) and React Native (mobile) apps with Redux/Context, Node.js/Express APIs, PostgreSQL, and Stripe integration.",
+                "Deployed applications to App Store & Google Play.",
+                "Modernized Angular front-end, developed reusable RxJS components, and ensured pixel-perfect Figma implementation.",
+                "Learned backend workflows to enable realistic front-end testing and integration."
+            ]
+        },
+        {
+            "role": "Technical Support → Junior Software Developer",
+            "company": "Hewlett Packard Enterprise / DXC Technology",
+            "location": "Costa Rica",
+            "period": "Mar 2017 – Aug 2019",
+            "responsibilities": [
+                "Transitioned from support to software development; built automation tools and reporting systems for call center operations.",
+                "Customized ServiceNow UI, developed SQL scripts, automated Excel reports, and created a real-time HelpDesk agent status app using WebSockets.",
+                "Managed Active Directory provisioning and automation workflows."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Captain’s George",
+            "description": "Full Stack Web Application built with React and Firebase, including serverless functions, GoDaddy DNS management, email notifications, and order tracking. Implemented authentication, user permissions, historical data analytics, and real-time dashboards."
+        },
+        {
+            "name": "Price Check",
+            "description": "Web app for restaurants to facilitate price comparison, order management, and cost control. Used by 4 restaurants for monthly orders up to $500,000.",
+            "features": [
+                "Personalized templates",
+                "Automated email ordering",
+                "Delivery and invoice verification",
+                "Historical data and visual analytics"
+            ],
+            "url": "https://organization-management-hub.firebaseapp.com",
+            "demo": {
+                "user": "PriceCheckDemo@outlook.com",
+                "password": "Demo123"
+            }
+        }
+    ],
+    "education": {
+        "degree": "Bachelor of Software Engineering, Computer Software Engineering",
+        "institution": "Universidad Nacional Estatal a Distancia",
+        "period": "Jan 2015 – Jan 2018"
+    },
+    "certifications": [
+        {
+            "title": "Python Fundamentals, Data Structures, and Algorithms",
+            "issuer": "Nucamp Coding Bootcamp",
+            "date": "Dec 2023"
+        },
+        {
+            "title": "Desarrollo de RESTful Web APIs con .NET Core",
+            "issuer": "Universidad Cenfotec",
+            "date": "Jan 2023"
+        }
+    ],
+    "languages": [
+        {
+            "name": "English",
+            "level": "C1"
+        },
+        {
+            "name": "Spanish",
+            "level": "Native"
+        }
+    ]
+}
