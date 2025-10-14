@@ -1,8 +1,9 @@
+import random
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from ai.agent import civil_engineering_agent
-from ai.portfolio_agent import generate_portfolio_html
+from ai.portfolio_agent import THEME_DATA, generate_portfolio_html
 from django.http import HttpResponse
 
 
@@ -23,20 +24,28 @@ class CivilEngineeringAgentView(APIView):
             return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 
-# 👇 Nuevo endpoint separado y visible para importar desde urls.py
 def generate_portfolio_view(request):
     """
-    Endpoint que genera el portafolio HTML dinámicamente
-    basado en el estilo pasado por parámetro (?estilo=dark, etc.)
+    Endpoint que genera el portafolio HTML dinámicamente.
+    Selecciona un diccionario de tema aleatorio de THEME_DATA.
     """
-    style = request.GET.get("estilo", "dark")
+
     try:
-        html_content = generate_portfolio_html(style)
+        # 1. Selección aleatoria del diccionario de tema completo
+        selected_theme_data = random.choice(THEME_DATA)
+        
+        # 2. Llamada a la función pasándole el diccionario completo
+        html_content = generate_portfolio_html(theme_data=selected_theme_data)
+        
+        # Opcional: Para debugging, puedes añadir el tema seleccionado al inicio del HTML
+        # html_content = f"\n" + html_content
+        
         return HttpResponse(
             html_content,
             content_type="text/html; charset=utf-8"
         )
     except Exception as e:
+        # Manejo de errores
         return HttpResponse(
             f"<h2>Error generando el portafolio:</h2><pre>{str(e)}</pre>",
             status=500,

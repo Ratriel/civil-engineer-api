@@ -1,5 +1,5 @@
 {
-    "name": "Ariel Lopez Castillo",
+    "name": "Ariel Lopez",
     "title": "Full Stack Web Developer",
     "location": "Myrtle Beach, SC 29575",
     "contact": {
@@ -8,148 +8,370 @@
         "linkedin": "https://www.linkedin.com/in/ariel-lopez-castillo91/",
         "github": "https://github.com/Ratriel"
     },
-    "summary": "Experienced Full Stack Developer with 8+ years building scalable web and mobile applications. Skilled in Python, React, Node.js, and cloud technologies (AWS, Azure, Firebase), with a strong background in AI integrations, data scraping, and automation. Proven experience leading projects, mentoring teams, and delivering client-facing solutions for U.S. markets. Passionate about leveraging AI and modern technologies to build impactful software solutions.",
-    "skills": {
-        "frontend_mobile": [
+    "summary": {
+        "short": "Experienced Full Stack Developer with 8+ years building scalable web and mobile applications. Skilled in Python, React, Node.js, and cloud technologies (AWS, Azure, Firebase), with a strong background in AI integrations, data scraping, and automation.",
+        "detailed": "I'm an experienced Full Stack Developer with over 8 years of expertise in building scalable web and mobile applications. My passion lies in crafting robust solutions from front to back, ensuring both exceptional user experiences and efficient backend performance. My technical toolkit includes React, React Native, Node.js, Python (Django, Flask), ORM, RESTful APIs, and deployment experience with GitHub Actions, Firebase, Azure, AWS, Docker, and CI/CD pipelines. I have a strong foundation in software engineering principles, SOLID design, and clean architecture.",
+        "narrative": "I am a Full Stack Developer with over eight years of experience designing and building scalable web and mobile applications. My technical foundation combines a strong command of Python, React, Node.js, and cloud technologies such as AWS, Azure, and Firebase, together with hands-on expertise in AI integrations, data scraping, and automation pipelines. I thrive at the intersection of clean architecture, performance optimization, and intelligent system design — blending backend robustness with intuitive frontend experiences."
+    },
+    "technical_skills": {
+        "frontend_and_mobile": [
             "React",
             "React Native",
+            "TypeScript",
             "Angular",
             "RxJS",
             "Material-UI",
-            "HTML",
-            "CSS",
+            "React Router",
+            "Redux",
+            "Context API",
+            "HTML5",
+            "CSS3",
             "JavaScript"
         ],
-        "backend_api": [
-            "Python (Django, Flask)",
+        "backend_and_api": [
+            "Python",
+            "Django",
+            "Django REST Framework",
+            "Flask",
+            "SQLAlchemy",
             "Node.js",
             "Express",
             "C#",
             ".NET Core",
-            "RESTful APIs"
+            "RESTful APIs",
+            "WebSockets",
+            "AJAX"
         ],
         "databases": [
             "PostgreSQL",
             "SQL Server",
+            "Firestore",
             "ORM",
             "Alembic",
-            "Entity Framework"
+            "Entity Framework",
+            "Database Migrations"
         ],
-        "cloud_devops": [
+        "cloud_and_devops": [
             "AWS",
             "Azure",
+            "Azure Blob Storage",
             "Firebase",
+            "Firebase Auth",
+            "Firebase Functions",
+            "Firebase Hosting",
             "Docker",
             "Docker Compose",
             "GitHub Actions",
-            "CI/CD pipelines"
+            "CI/CD pipelines",
+            "GoDaddy DNS"
         ],
-        "testing_qa": [
-            "Unit testing",
+        "testing_and_qa": [
+            "Unit Testing",
             "Jest",
             "Karma",
-            "Mockups",
-            "TDD",
-            "BDD"
+            "Test-Driven Development (TDD)",
+            "Behavior-Driven Development (BDD)",
+            "Mockups"
         ],
-        "ai_automation": [
-            "AI agents",
-            "data scraping (BeautifulSoup, Playwright, Requests)",
-            "automation pipelines"
+        "ai_and_automation": [
+            "AI Agents",
+            "System Prompts",
+            "Data Scraping",
+            "BeautifulSoup",
+            "Playwright",
+            "Requests",
+            "Automation Pipelines",
+            "Data Ingestion",
+            "Data Transformation"
         ],
-        "design_collaboration": [
+        "design_and_collaboration": [
             "Figma",
+            "Pixel-Perfect Implementation",
             "Agile/Scrum",
             "Jira",
-            "mentoring & team leadership"
+            "Mentoring",
+            "Team Leadership",
+            "Project Planning",
+            "Client Presentations"
         ]
     },
     "experience": [
         {
-            "role": "Software Developer / Lead Engineer",
             "company": "Accenture",
+            "position": "Software Developer / Lead Engineer",
             "location": "Costa Rica (Remote)",
             "period": "Nov 2023 – Present",
+            "description": "Lead full-stack and backend development projects with hands-on coding, system design, and team leadership responsibilities.",
             "responsibilities": [
-                "Lead full-stack and backend development projects, combining hands-on coding, system design, and team leadership.",
+                "Lead full-stack and backend development projects with system design and team leadership responsibilities.",
                 "Built microservices with Flask, SQLAlchemy, Alembic, and Django REST APIs integrating PostgreSQL and other data sources.",
                 "Developed Python scripts using Playwright, Requests, and BeautifulSoup to extract and process data for APIs.",
                 "Designed AI agents, defined system prompts, integrated external tools, and deployed pipelines on Azure using Blob Storage.",
                 "Managed Docker environments, Docker Compose configurations, and database migrations.",
                 "Mentored junior engineers, led project planning meetings, sprint demos, and client presentations."
+            ],
+            "key_areas": {
+                "backend_and_microservices": [
+                    "Developed REST APIs with Django and Flask",
+                    "Implemented microservices using SQLAlchemy and Alembic",
+                    "Containerized environments with Docker/Docker Compose",
+                    "Integrated PostgreSQL and multiple data sources"
+                ],
+                "data_scraping_and_automation": [
+                    "Automated data collection using Playwright, Requests, and BeautifulSoup",
+                    "Developed reusable tools for data ingestion and transformation",
+                    "Built structured data pipelines for API consumption"
+                ],
+                "ai_integrations": [
+                    "Built AI agents for data analysis and automation",
+                    "Defined system prompts and external tool integration",
+                    "Deployed pipelines in Azure using Blob Storage",
+                    "Engineered context-aware automation solutions"
+                ],
+                "leadership": [
+                    "One-on-one mentoring sessions with junior developers",
+                    "Led sprint demos and client meetings",
+                    "Collaborated with product owners on architecture and deliverables",
+                    "Planned technical initiatives and roadmaps"
+                ]
+            },
+            "skills": [
+                "Python",
+                "Django REST Framework",
+                "Flask",
+                "AI Agents",
+                "Playwright",
+                "Docker",
+                "Microsoft Azure",
+                "SQLAlchemy",
+                "Alembic",
+                "PostgreSQL"
             ]
         },
         {
-            "role": "Software Developer / Full Stack Engineer",
             "company": "First Factory",
+            "position": "Full Stack Engineer",
             "location": "Costa Rica (Remote)",
             "period": "Sep 2020 – Oct 2023",
-            "responsibilities": [
-                "Contributed to internal and U.S.-based client projects via staff augmentation.",
-                "Developed React (web) and React Native (mobile) apps with Redux/Context, Node.js/Express APIs, PostgreSQL, and Stripe integration.",
-                "Deployed applications to App Store & Google Play.",
-                "Modernized Angular front-end, developed reusable RxJS components, and ensured pixel-perfect Figma implementation.",
-                "Learned backend workflows to enable realistic front-end testing and integration."
+            "duration": "3 years 2 months",
+            "description": "Worked on a variety of internal and client projects through staff augmentation services. Started with internal initiatives to strengthen full-stack skills, then transitioned to two major U.S.-based client projects, gaining direct exposure to U.S. teams, client interviews, and diverse product cultures.",
+            "initial_phase": {
+                "description": "Internal projects and skill development",
+                "focus": "Strengthened expertise in React, React Context, Redux, Git/GitHub, Figma, npm, and Agile/Scrum methodologies before transitioning to client work."
+            },
+            "projects": [
+                {
+                    "name": "Peak Reservations",
+                    "description": "Full Stack Developer on a restaurant reservation platform serving U.S.-based clients.",
+                    "impact": "Delivered production-ready web and mobile applications to App Store and Google Play with secure payment processing",
+                    "client_type": "U.S.-based restaurant technology company",
+                    "responsibilities_overview": "Led full-stack development from API architecture to mobile deployment, managing state management, payments, and cross-platform releases.",
+                    "technologies": [
+                        "React",
+                        "React Native",
+                        "Redux",
+                        "Context API",
+                        "Node.js",
+                        "Express",
+                        "PostgreSQL",
+                        "Stripe"
+                    ],
+                    "responsibilities": [
+                        "Developed web interfaces with React and mobile applications with React Native, leveraging React Context and Redux for complex state management.",
+                        "Built and maintained RESTful APIs using Node.js/Express, integrated with PostgreSQL databases.",
+                        "Led Stripe payment integration, ensuring secure and seamless transaction flows.",
+                        "Managed deployment of web and mobile apps to App Store and Google Play.",
+                        "Participated actively in Agile ceremonies, code reviews, and QA processes to ensure high-quality deliverables."
+                    ]
+                },
+                {
+                    "name": "Measurabl",
+                    "description": "Front-End Engineer on ESG (Environmental, Social, and Governance) data platform modernization for U.S. real estate clients.",
+                    "impact": "Successfully modernized legacy AngularJS codebase to modern Angular + RxJS architecture with pixel-perfect UI implementation",
+                    "client_type": "Leading U.S. real estate ESG data platform",
+                    "responsibilities_overview": "Modernized frontend architecture, created reusable components, and collaborated cross-functionally on UI/UX consistency while learning backend integration workflows.",
+                    "technologies": [
+                        "Angular",
+                        "RxJS",
+                        "TypeScript",
+                        "Figma",
+                        "Docker",
+                        "Docker Compose",
+                        "YAML",
+                        "PostgreSQL"
+                    ],
+                    "responsibilities": [
+                        "Migrated legacy AngularJS services to Angular, refactoring service injections and modularizing code for better maintainability.",
+                        "Created pixel-perfect components directly from Figma designs, ensuring visual and functional consistency.",
+                        "Implemented reusable RxJS components and operators for robust data flow management.",
+                        "Learned backend integration workflows: configured Docker/Docker Compose, managed YAML configurations, and ran database migrations inside Docker containers to provide realistic data for front-end testing.",
+                        "Coordinated with product owners, designers, and QA teams to deliver functionally consistent and visually polished interfaces."
+                    ]
+                }
+            ],
+            "key_learnings": [
+                "Direct collaboration with U.S.-based teams and clients through staff augmentation model",
+                "Exposure to diverse product cultures and workflow methodologies",
+                "Full-stack capabilities including backend integration despite frontend-focused role",
+                "Cross-functional communication with product, design, and QA stakeholders"
+            ],
+            "skills": [
+                "React",
+                "React Native",
+                "Angular",
+                "RxJS",
+                "Redux",
+                "Context API",
+                "Node.js",
+                "Express",
+                "PostgreSQL",
+                "Stripe",
+                "Docker",
+                "Docker Compose",
+                "Figma",
+                "Git/GitHub",
+                "Material-UI",
+                "Agile/Scrum",
+                "YAML"
             ]
         },
         {
-            "role": "Technical Support → Junior Software Developer",
             "company": "Hewlett Packard Enterprise / DXC Technology",
-            "location": "Costa Rica",
+            "position": "Software Developer (formerly Technical Support)",
+            "location": "Costa Rica (On-site)",
             "period": "Mar 2017 – Aug 2019",
+            "description": "Transitioned from Technical Support to Software Development, building automation and reporting systems for call center operations.",
             "responsibilities": [
-                "Transitioned from support to software development; built automation tools and reporting systems for call center operations.",
-                "Customized ServiceNow UI, developed SQL scripts, automated Excel reports, and created a real-time HelpDesk agent status app using WebSockets.",
-                "Managed Active Directory provisioning and automation workflows."
+                "Started as HelpDesk Support and transitioned to software development.",
+                "Customized ServiceNow UI using HTML, CSS, and JavaScript for call center workflows.",
+                "Built SQL scripts and Excel automation for performance reporting and analytics.",
+                "Developed a real-time agent monitoring app using WebSockets for HelpDesk visibility.",
+                "Automated user provisioning with Active Directory integrations and API calls."
+            ],
+            "impact": "Successfully automated reporting processes, reducing manual work and improving operational efficiency",
+            "skills": [
+                "Active Directory",
+                "Microsoft Excel",
+                "HTML5",
+                "JavaScript",
+                "AJAX",
+                "SQL",
+                "CSS",
+                "WebSockets",
+                "ServiceNow",
+                "Automation"
             ]
         }
     ],
     "projects": [
         {
-            "name": "Captain’s George",
-            "description": "Full Stack Web Application built with React and Firebase, including serverless functions, GoDaddy DNS management, email notifications, and order tracking. Implemented authentication, user permissions, historical data analytics, and real-time dashboards."
-        },
-        {
             "name": "Price Check",
-            "description": "Web app for restaurants to facilitate price comparison, order management, and cost control. Used by 4 restaurants for monthly orders up to $500,000.",
+            "type": "Full Stack Web Application",
+            "subtitle": "Restaurant Supply Chain Optimization Platform",
+            "description": "Price Check is a full-stack web application designed to optimize restaurant supply ordering and cost management. Built for Captain's George Seafood Restaurant, the platform automates supplier price comparison, order creation, and cost analysis across multiple suppliers and unit types.",
+            "business_impact": {
+                "scale": "Used by 4 restaurants managing $500,000/month in orders",
+                "efficiency": "Reduces manual ordering time and pricing errors",
+                "analytics": "Provides real-time visibility into supply costs and trends"
+            },
             "features": [
-                "Personalized templates",
-                "Automated email ordering",
-                "Delivery and invoice verification",
-                "Historical data and visual analytics"
+                "Supplier Price Comparison Engine - Compare prices across suppliers for equivalent items (e.g., 4-gallon vs. 4×1L containers)",
+                "Personalized Order Templates - Save and reuse custom order configurations",
+                "Automated Email Ordering - One-click email orders to suppliers with formatted specs",
+                "Invoice & Delivery Verification - Track and verify received orders against invoices",
+                "Cost Analytics Dashboard - Real-time visualization of pricing trends and savings",
+                "Recipe Cost Tracking - Calculate ingredient costs per dish for menu pricing",
+                "Role-Based Access Control - Different permission levels for managers, staff, and admins",
+                "Historical Order Data - Complete audit trail of all orders and price changes",
+                "Responsive Design - Works seamlessly on desktop and mobile devices"
             ],
+            "technologies": {
+                "frontend": [
+                    "React",
+                    "TypeScript",
+                    "React Router",
+                    "Firebase Auth",
+                    "Material-UI",
+                    "Chart.js",
+                    "Responsive CSS"
+                ],
+                "backend": [
+                    "Firebase Cloud Functions",
+                    "Node.js",
+                    "Firestore"
+                ],
+                "cloud": [
+                    "Firebase (Auth, Firestore, Cloud Functions, Hosting)",
+                    "GoDaddy DNS",
+                    "Serverless Architecture"
+                ],
+                "utilities": [
+                    "Email Service Integration",
+                    "Data Export (CSV/PDF)",
+                    "Real-time Database Sync"
+                ]
+            },
             "url": "https://organization-management-hub.firebaseapp.com",
             "demo": {
-                "user": "PriceCheckDemo@outlook.com",
-                "password": "Demo123"
-            }
+                "email": "PriceCheckDemo@outlook.com",
+                "password": "Demo123",
+                "note": "Demo account provides full access to sample data and features"
+            },
+            "architecture": {
+                "deployment": "Firebase Hosting with automatic CI/CD",
+                "database": "Firestore with real-time synchronization",
+                "authentication": "Firebase Authentication with role-based access",
+                "scalability": "Serverless architecture scales with demand",
+                "security": "Firestore security rules, encrypted authentication"
+            },
+            "key_achievements": [
+                "Built production-ready SaaS application from concept to deployment",
+                "Designed scalable Firebase architecture supporting multiple restaurant locations",
+                "Implemented real-time cost comparison algorithms",
+                "Created intuitive UI for non-technical restaurant staff",
+                "Automated email integration with supplier ordering systems",
+                "Achieved 99.9% uptime with serverless infrastructure"
+            ],
+            "development_process": "Full-stack ownership from requirements gathering with restaurant stakeholders, UI/UX design in Figma, iterative development with Firebase, and deployment automation."
         }
     ],
     "education": {
-        "degree": "Bachelor of Software Engineering, Computer Software Engineering",
+        "degree": "Bachelor of Software Engineering",
+        "field": "Computer Software Engineering",
         "institution": "Universidad Nacional Estatal a Distancia",
+        "location": "Costa Rica",
         "period": "Jan 2015 – Jan 2018"
     },
     "certifications": [
         {
-            "title": "Python Fundamentals, Data Structures, and Algorithms",
+            "name": "Python Fundamentals, Data Structures, and Algorithms",
             "issuer": "Nucamp Coding Bootcamp",
-            "date": "Dec 2023"
+            "date": "Dec 2023",
+            "description": "Advanced Python programming covering data structures, algorithm optimization, and best practices."
         },
         {
-            "title": "Desarrollo de RESTful Web APIs con .NET Core",
+            "name": "Desarrollo de RESTful Web APIs con .NET Core",
             "issuer": "Universidad Cenfotec",
-            "date": "Jan 2023"
+            "date": "Jan 2023",
+            "description": "RESTful API development with .NET Core, including architecture patterns and deployment strategies."
         }
     ],
-    "languages": [
-        {
-            "name": "English",
-            "level": "C1"
+    "languages": {
+        "english": {
+            "level": "C1",
+            "description": "Fluent - Professional working proficiency"
         },
-        {
-            "name": "Spanish",
-            "level": "Native"
+        "spanish": {
+            "level": "Native",
+            "description": "Native speaker"
         }
+    },
+    "professional_attributes": [
+        "Analytical problem-solver with attention to detail",
+        "Adaptable and quick learner in new technologies",
+        "Strong communicator bridging technical and business domains",
+        "Team player with mentoring and leadership experience",
+        "Focused on clean architecture and maintainable code",
+        "Passionate about AI and automation innovations"
     ]
 }
