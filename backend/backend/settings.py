@@ -1,4 +1,6 @@
-
+import os
+from dotenv import load_dotenv
+load_dotenv()
 from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -6,9 +8,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-s)qk%djk@t^-%@c7ty_nh9g&i5#vpx!2sy#ig=62=#$!-lox-q'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-ALLOWED_HOSTS = []
-
+DEBUG = os.getenv("DEBUG", "False") == "True"
+ALLOWED_HOSTS = ["*"]  # temporal, luego lo ajustamos a tu dominio Render
 
 # Application definition
 
