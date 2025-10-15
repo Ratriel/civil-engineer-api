@@ -1,4 +1,9 @@
-# backend/earthquakes/urls.py
+"""
+URL configuration for the Earthquakes app.
+
+Maps endpoints to corresponding API views.
+"""
+
 from django.urls import path
 from .views import (
     EarthquakeByStateView,
@@ -9,10 +14,11 @@ from .views import (
 )
 
 urlpatterns = [
+    # Earthquake retrieval endpoints
     path("us/<str:state_name>/", EarthquakeByStateView.as_view(), name="earthquakes-by-state"),
+    path("by-radius/", EarthquakeByRadiusView.as_view(), name="earthquakes-by-radius"),
 
-    # nuevos endpoints para recibir datos
-    path("by-radius/", EarthquakeByRadiusView.as_view(), name="by-radius"),  # 👈 nuevo
+    # Data storage endpoints for AI usage
     path("recent-automatic/", RecentAutomaticView.as_view(), name="recent-automatic"),
     path("recent-felt/", RecentFeltView.as_view(), name="recent-felt"),
     path("historical/", HistoricalView.as_view(), name="historical"),
