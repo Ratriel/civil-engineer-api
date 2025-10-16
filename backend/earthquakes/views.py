@@ -11,7 +11,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from api.services.usgs import get_earthquakes_by_radius, get_earthquakes_by_state
-from ai.data_store import save_data
+from ai.data_store import save_data, load_data
 
 # ------------------------------------------------------------------------
 # Logger configuration for this module
@@ -75,26 +75,29 @@ class EarthquakeByRadiusView(APIView):
         starttime = request.GET.get("starttime", "2025-01-01")
         endtime = request.GET.get("endtime", "2025-12-31")
 
-        if not lat or not lon:
-            logger.warning("Missing latitude or longitude parameters")
-            return Response(
-                {"error": "lat and lon parameters are required."},
-                status=status.HTTP_400_BAD_REQUEST,
-            )
+        print(lat, lon, radius, starttime, endtime)
 
-        logger.info(f"Request for earthquakes by radius: lat={lat}, lon={lon}, radius={radius}")
+        # if not lat or not lon:
+        #     logger.warning("Missing latitude or longitude parameters")
+        #     return Response(
+        #         {"error": "lat and lon parameters are required."},
+        #         status=status.HTTP_400_BAD_REQUEST,
+        #     )
 
-        try:
-            data = get_earthquakes_by_radius(lat, lon, radius, starttime, endtime)
-            save_data(f"radius_{lat}_{lon}_{radius}", data)
-            logger.info(f"Retrieved {len(data)} earthquake events for radius query")
-            return Response(data, status=status.HTTP_200_OK)
-        except Exception as e:
-            logger.exception("Unexpected error in EarthquakeByRadiusView")
-            return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+        # logger.info(f"Request for earthquakes by radius: lat={lat}, lon={lon}, radius={radius}")
+
+     
+        # try:
+        #     data = get_earthquakes_by_radius(lat, lon, radius, starttime, endtime)
+        #     save_data(f"radius_{lat}_{lon}_{radius}", data)
+        #     logger.info(f"Retrieved {len(data)} earthquake events for radius query")
+        #     return Response(data, status=status.HTTP_200_OK)
+        # except Exception as e:
+        #     logger.exception("Unexpected error in EarthquakeByRadiusView")
+        #     return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 # ------------------------------------------------------------------------
-# Endpoint: Store recent automatic earthquakes
+# Endpoint: Store recent automatic earthquakes Costa Rica
 # ------------------------------------------------------------------------
 class RecentAutomaticView(APIView):
     """
@@ -114,7 +117,7 @@ class RecentAutomaticView(APIView):
         return Response({"message": "Data stored"}, status=status.HTTP_201_CREATED)
 
 # ------------------------------------------------------------------------
-# Endpoint: Store recent felt earthquakes
+# Endpoint: Store recent felt earthquakes Costa Rica
 # ------------------------------------------------------------------------
 class RecentFeltView(APIView):
     """
@@ -131,7 +134,7 @@ class RecentFeltView(APIView):
         return Response({"message": "Data stored"}, status=status.HTTP_201_CREATED)
 
 # ------------------------------------------------------------------------
-# Endpoint: Store historical earthquakes
+# Endpoint: Store historical earthquakes Costa Rica
 # ------------------------------------------------------------------------
 class HistoricalView(APIView):
     """
@@ -146,3 +149,52 @@ class HistoricalView(APIView):
         logger.info(f"Storing historical earthquake data, {len(data)} records")
         save_data("historical", data)
         return Response({"message": "Data stored"}, status=status.HTTP_201_CREATED)
+
+# ------------------------------------------------------------------------
+# Endpoint: Get recent automatic earthquakes Costa Rica
+# ------------------------------------------------------------------------
+class GetRecentAutomaticView(APIView):
+    """
+    Retrieve recent automatic earthquake data for AI usage.
+    """
+    def get(self, request):
+        # 1. Cargar todos los datos del archivo JSON
+        all_data = load_data()
+        
+        # 2. Extraer la sección específica
+        # Usamos .get() con un valor predeterminado de lista vacía para manejar 
+        # el caso en que la clave no exista en el JSON.
+        data = all_data.get("recent_automatic", []) 
+        
+        logger.info(f"Retrieving recent automatic earthquake data, {len(data)} records")
+        
+        # 3. Devolver los datos con el código 200 OK
+        return Response(data, status=status.HTTP_200_OK)
+
+
+# ------------------------------------------------------------------------
+# Endpoint: Get recent felt earthquakes Costa Rica
+# ------------------------------------------------------------------------
+class GetRecentFeltView(APIView):
+    """
+    Retrieve recent felt earthquake data for AI usage.
+    """
+    def get(self, request):
+        all_data = load_data()
+        data = all_data.get("recent_felt", [])
+        logger.info(f"Retrieving recent felt earthquake data, {len(data)} records")
+        return Response(data, status=status.HTTP_200_OK)
+
+
+# ------------------------------------------------------------------------
+# Endpoint: Get historical earthquakes Costa Rica
+# ------------------------------------------------------------------------
+class GetHistoricalView(APIView):
+    """
+    Retrieve historical earthquake data for AI usage.
+    """
+    def get(self, request):
+        all_data = load_data()
+        data = all_data.get("historical", [])
+        logger.info(f"Retrieving historical earthquake data, {len(data)} records")
+        return Response(data, status=status.HTTP_200_OK)

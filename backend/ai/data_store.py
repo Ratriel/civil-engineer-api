@@ -11,9 +11,19 @@ def save_data(endpoint_name: str, data):
     with open(DATA_PATH, "w", encoding="utf-8") as f:
         json.dump(all_data, f, ensure_ascii=False, indent=2)
 
+
+# Asegúrate de que esta ruta sea la correcta para el entorno donde se ejecuta el backend
+DATA_PATH = Path("/Users/ariellopez/Dev/civil-engineer-api/backend/ai/earthquake_data.json")
+
 def load_data():
     """Carga los datos almacenados."""
     if not DATA_PATH.exists():
+        # Devuelve un diccionario vacío si el archivo no existe para evitar errores.
         return {}
-    with open(DATA_PATH, "r", encoding="utf-8") as f:
-        return json.load(f)
+    try:
+        with open(DATA_PATH, "r", encoding="utf-8") as f:
+            # Asumimos que el JSON contiene un diccionario donde las claves son
+            # "recent_automatic", "recent_felt", "historical", etc.
+            return json.load(f)
+    except json.JSONDecodeError:
+        return {}

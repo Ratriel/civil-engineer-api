@@ -3,7 +3,7 @@ services:
     name: django-api
     env: python
     buildCommand: "pip install -r backend/requirements.txt"
-    startCommand: "cd backend && gunicorn backend.wsgi:application --timeout 240"
+    startCommand: "cd backend && gunicorn backend.wsgi:application --timeout 240  --workers 1"
     envVars:
       - key: DEBUG
         value: False
