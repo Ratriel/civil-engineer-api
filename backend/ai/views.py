@@ -16,6 +16,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from ai.agent import civil_engineering_agent
 from ai.portfolio_agent import THEME_DATA, generate_portfolio_html
+from django.http import HttpResponse, Http404
 
 # ------------------------------------------------------------------------
 # Logger configuration for this module
@@ -75,7 +76,7 @@ def generate_portfolio_view(request):
     try:
         # Select a random theme
         selected_theme_data = random.choice(THEME_DATA)
-        logger.info(f"Selected theme for portfolio: {selected_theme_data.get('name', 'unknown')}")
+        logger.info(f"Selected theme for portfolio: {selected_theme_data.get('Name', 'unknown')}")
 
         # Generate HTML content
         html_content = generate_portfolio_html(theme_data=selected_theme_data)
@@ -92,3 +93,46 @@ def generate_portfolio_view(request):
             status=500,
             content_type="text/html; charset=utf-8"
         )
+
+# ------------------------------------------------------------------------
+# --- View para retornar un CV específico (e.g., /api/cv/1/) ---
+def cv_view(request, cv_id):
+    """
+    Retorna el archivo HTML del CV basado en el ID proporcionado.
+    Espera un cv_id como '1', '2', '3', '4'.
+    """
+    
+    # Construir el nombre del archivo (e.g., 'cv1.html')
+    cv_filename = f'cv{cv_id}.html'
+    
+    try:
+        # Usa 'render' si 'backend/ai' está configurado como un directorio de templates,
+        # lo cual es común en Django para apps pequeñas o si está configurado para buscar templates aquí.
+        # Si NO está configurado como directorio de templates, necesitarás leer el archivo manualmente.
+        
+        # --- Opción 1: Usando `render` (Si 'backend/ai' es un directorio de templates) ---
+        # return render(request, cv_filename)
+        
+        # --- Opción 2: Leyendo el archivo manualmente (Más seguro si no es un directorio de templates) ---
+        import os
+        from django.conf import settings
+        
+        # Obtener la ruta absoluta del archivo
+        # Asumo que esta vista está en la misma carpeta que los archivos HTML.
+        # __file__ es la ruta de este archivo (views.py)
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        file_path = os.path.join(base_dir, cv_filename)
+        
+        if not os.path.exists(file_path):
+            raise Http404(f"CV con ID {cv_id} no encontrado.")
+            
+        with open(file_path, 'r', encoding='utf-8') as f:
+            html_content = f.read()
+            
+        return HttpResponse(html_content, content_type='text/html')
+        
+    except FileNotFoundError:
+        # Esto es solo para la Opción 1 si falla la configuración, pero la Opción 2 lo maneja con `Http404`.
+        raise Http404(f"CV con ID {cv_id} no encontrado.")
+        
+# ------------------------------------------------------------------

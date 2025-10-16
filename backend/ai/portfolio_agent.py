@@ -91,15 +91,15 @@ THEME_DATA = [
 
 def generate_portfolio_html(theme_data: dict) -> str:
     """
-    Generates a unique, themed, TailwindCSS-based HTML portfolio from Ariel's profile.
-    The 'theme_data' dictionary dictates the entire visual style and narrative.
-    Returns HTML as a string.
+    Generates HTML portfolio, saves it to the local directory, and returns the HTML content.
     """
     # Load profile
-    profile_path = os.path.join(os.path.dirname(__file__), "profile.json")
+    BASE_DIR = os.path.dirname(__file__) # Esto resuelve la ruta local sin usar settings
+    profile_path = os.path.join(BASE_DIR, "profile.json")
+
     with open(profile_path, "r", encoding="utf-8") as f:
         profile = json.load(f)
-
+        
     # Configure model
     llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.95) 
 
@@ -141,6 +141,24 @@ def generate_portfolio_html(theme_data: dict) -> str:
 
     )
     response = llm.invoke(final_prompt)
+    html_content = response.content
 
-    return response.content
+        # --- NUEVA LÓGICA DE GUARDADO ---
+    
+    # 1. Crear el nombre del archivo basado en el nombre del tema
+    file_slug = 6
+    filename = f"cv{file_slug}.html"
+    file_path = os.path.join(BASE_DIR, filename)
+
+    # 2. Guardar el contenido HTML en el mismo directorio
+    try:
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write(html_content)
+    except Exception as e:
+        print(e)
+
+        # Considera cómo quieres manejar el error si la escritura falla
+
+    # 3. Devuelve el contenido HTML (comportamiento original)
+    return html_content
 
