@@ -12,8 +12,6 @@ def save_data(endpoint_name: str, data):
         json.dump(all_data, f, ensure_ascii=False, indent=2)
 
 
-# Asegúrate de que esta ruta sea la correcta para el entorno donde se ejecuta el backend
-DATA_PATH = Path("/Users/ariellopez/Dev/civil-engineer-api/backend/ai/earthquake_data.json")
 
 def load_data():
     """Carga los datos almacenados."""
