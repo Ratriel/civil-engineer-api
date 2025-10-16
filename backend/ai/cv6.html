@@ -1,125 +1,197 @@
 ```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ariel Lopez - Full Stack Web Developer</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Ariel Lopez - The One in Web Development</title>
     <style>
         body {
-            background-color: #1A1A1A;
-            color: #F5F5F5;
-            font-family: 'Arial', sans-serif;
+            background-color: #000000;
+            color: #00ff00;
+            font-family: 'Courier New', Courier, monospace;
         }
-        h1, h2, h3 {
-            text-shadow: 1px 1px 5px black;
+
+        .section-title {
+            color: #ff0000;
+            font-size: 2rem;
+            border-bottom: 2px solid #00ff00;
         }
-        .highlight {
-            color: #FF4D00; /* Blood Red */
-            font-weight: bold;
-        }
-        .container {
-            max-width: 1200px;
-            margin: auto;
-        }
+
         .section {
-            border-bottom: 2px solid #FF4D00;
-            margin: 20px 0;
-            padding-bottom: 20px;
+            margin-bottom: 2rem;
+        }
+
+        .impact {
+            color: #ffffff;
+        }
+
+        .achievements {
+            color: #00ff00;
+        }
+
+        .job-title {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .project-title {
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: #ff0000;
+        }
+
+        a {
+            color: #00ff00;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color: #ff0000;
         }
     </style>
 </head>
+
 <body>
-    <div class="container">
-        <header class="text-center py-10">
-            <h1 class="text-5xl font-bold">Ariel Lopez</h1>
-            <h2 class="text-3xl">Full Stack Web Developer</h2>
-            <p class="mt-2"><span class="highlight">Location:</span> Myrtle Beach, SC 29575</p>
-            <p class="mt-1"><span class="highlight">Contact:</span> (843) 504-1800 | <a href="mailto:ariel_91_aj@hotmail.com" class="underline">ariel_91_aj@hotmail.com</a></p>
-            <p class="mt-1"><span class="highlight">LinkedIn:</span> <a href="https://www.linkedin.com/in/ariel-lopez-castillo91/" class="underline">LinkedIn Profile</a></p>
-            <p class="mt-1"><span class="highlight">GitHub:</span> <a href="https://github.com/Ratriel" class="underline">GitHub Profile</a></p>
+    <div class="container mx-auto p-5">
+        <header class="text-center">
+            <h1 class="text-4xl">Ariel Lopez</h1>
+            <h2 class="text-2xl">⚡ Full Stack Web Developer ⚡</h2>
+            <p class="text-lg">Myrtle Beach, SC 29575</p>
+            <p class="text-lg">📞 (843) 504-1800 | ✉️ <a href="mailto:ariel_91_aj@hotmail.com">ariel_91_aj@hotmail.com</a> | 🔗 <a href="https://www.linkedin.com/in/ariel-lopez-castillo91/">LinkedIn</a> | 🐱 <a href="https://github.com/Ratriel">GitHub</a></p>
         </header>
 
-        <section class="section">
-            <h2 class="text-4xl underline">The Dark Chronicles</h2>
-            <p class="mt-2"><span class="highlight">Summary:</span> Experienced Full Stack Developer with 8+ years in the digital realm, crafting powerful web and mobile applications. Masterful in Python, React, and Node.js, with a knack for wielding cloud technologies like AWS and Azure for ingenious solutions.</p>
+        <section class="summary section">
+            <h3 class="section-title">📜 The Oracle's Insights</h3>
+            <p class="text-gray-300">I am an experienced Full Stack Developer with over eight years of experience designing and building scalable web and mobile applications. My technical foundation combines a strong command of Python, React, Node.js, and cloud technologies such as AWS, Azure, and Firebase, together with hands-on expertise in AI integrations, data scraping, and automation pipelines. I thrive at the intersection of clean architecture, performance optimization, and intelligent system design — blending backend robustness with intuitive frontend experiences.</p>
         </section>
 
-        <section class="section">
-            <h2 class="text-4xl underline">Quest Log</h2>
-            <h3 class="text-3xl mt-4">Accenture</h3>
-            <p><strong>Position:</strong> Software Developer / Lead Engineer</p>
-            <p><strong>Location:</strong> Costa Rica (Remote)</p>
-            <p><strong>Period:</strong> Nov 2023 – Present</p>
-            <p class="mt-2"><span class="highlight">Mission:</span> Lead full-stack and backend development projects with system design and team leadership responsibilities.</p>
-            <ul class="list-disc list-inside">
-                <li>Crafted microservices using Flask and integrated robust RESTful APIs</li>
-                <li>Extracted data employing Python scripts with Playwright and BeautifulSoup</li>
-                <li>Engineered AI agents and defined system prompts for smart pipelines on Azure</li>
-                <li>Managed Docker environments ensuring seamless deployment</li>
-                <li>Mentored junior engineers, enriching their journey through technical challenges</li>
-            </ul>
-
-            <h3 class="text-3xl mt-4">First Factory</h3>
-            <p><strong>Position:</strong> Full Stack Engineer</p>
-            <p><strong>Location:</strong> Costa Rica (Remote)</p>
-            <p><strong>Period:</strong> Sep 2020 – Oct 2023</p>
-            <p class="mt-2"><span class="highlight">Mission:</span> Engaged in diverse internal and client projects, enhancing full-stack capabilities.</p>
-            <ul class="list-disc list-inside">
-                <li>Developed the <strong>Peak Reservations</strong> platform, optimizing restaurant operations with smooth API management</li>
-                <li>Transformed <strong>Measurabl</strong>, modernizing its architecture from legacy AngularJS to Angular + RxJS</li>
-            </ul>
+        <section class="skills section">
+            <h3 class="section-title">🛠️ The Binary Toolkit</h3>
+            <div>
+                <h4 class="font-bold">Frontend and Mobile:</h4>
+                <p>React, React Native, TypeScript, Angular, RxJS, Material-UI, React Router, Redux, Context API, HTML5, CSS3, JavaScript</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Backend and API:</h4>
+                <p>Python, Django, Django REST Framework, Flask, SQLAlchemy, Node.js, Express, C#, .NET Core, RESTful APIs, WebSockets, AJAX</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Databases:</h4>
+                <p>PostgreSQL, SQL Server, Firestore, ORM, Alembic, Entity Framework</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Cloud and DevOps:</h4>
+                <p>AWS, Azure, Azure Blob Storage, Firebase, Docker, GitHub Actions, CI/CD pipelines</p>
+            </div>
+            <div>
+                <h4 class="font-bold">AI and Automation:</h4>
+                <p>AI Agents, Data Scraping, BeautifulSoup, Playwright, Automation Pipelines</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Design and Collaboration:</h4>
+                <p>Figma, Agile/Scrum, Jira, Mentoring, Team Leadership</p>
+            </div>
         </section>
 
-        <section class="section">
-            <h2 class="text-4xl underline">Artifact Forging</h2>
-            <h3 class="text-3xl mt-4">Price Check</h3>
-            <p class="mt-2"><strong>Type:</strong> Full Stack Web Application</p>
-            <p><strong>Description:</strong> A powerful web application designed to optimize restaurant supply chain management.</p>
-            <p><span class="highlight">Business Impact:</span> Utilized by 4 restaurants managing $500,000/month in orders, dramatically reducing manual errors and order time.</p>
-            <ul class="list-disc list-inside">
-                <li>Supplier Price Comparison Engine for efficient ordering</li>
-                <li>Automated Email Ordering for quick interactions with suppliers</li>
-                <li>Real-time Cost Analytics Dashboard providing pricing trends insights</li>
-            </ul>
-            <p><a href="https://organization-management-hub.firebaseapp.com" class="underline">Demo Access</a>: Use <strong>PriceCheckDemo@outlook.com</strong> with password <strong>Demo123</strong> for a seamless walkthrough.</p>
+        <section class="quest-log section">
+            <h3 class="section-title">📅 Quest Log</h3>
+            <div class="impact">
+                <div>
+                    <h4 class="job-title">Accenture ⚙️ - Software Developer / Lead Engineer</h4>
+                    <p>Columbia, South Carolina Metropolitan Area (Remote) | Nov 2023 – Present</p>
+                    <p>Mission Report: Lead full-stack and backend development projects with hands-on coding, system design, and team leadership responsibilities.</p>
+                    <ul class="achievements">
+                        <li>Implemented microservices using Flask, SQLAlchemy, and Django REST APIs integrating with PostgreSQL.</li>
+                        <li>Automated data processing via Python scripts leveraging Playwright and BeautifulSoup.</li>
+                        <li>Crafted AI agents and deployed complex solutions on Azure, harnessing the power of Blob Storage.</li>
+                        <li>Enhanced team capabilities through mentoring junior engineers and leading agile ceremonies.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="job-title">First Factory 🔷 - Full Stack Engineer</h4>
+                    <p>New York, United States (Remote) | Sep 2020 – Oct 2023</p>
+                    <p>Mission Report: Engaged in diverse internal and client projects enhancing full-stack capabilities and product adaptability.</p>
+                    <ul class="achievements">
+                        <li><strong>Project: Peak Reservations</strong> - Developed a platform that served U.S. clients with seamless payment processing and mobile deployments.</li>
+                        <li>Surveyed and constructed RESTful APIs for dynamic data flow using Node.js/Express.</li>
+                        <li>Contributed to Agile practices ensuring smooth transitions from ideation to production-ready applications.</li>
+                        <li>Worked closely with U.S.-based product teams enhancing cross-functional strategies.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="job-title">Hewlett Packard Enterprise ⚡ - Software Developer (formerly Technical Support)</h4>
+                    <p>Costa Rica (On-site) | Mar 2017 – Aug 2019</p>
+                    <p>Mission Report: Transitioned from technical support to software development, creating autonomy in process optimizations.</p>
+                    <ul class="achievements">
+                        <li>Customized ServiceNow UI to streamline workflows improving user experience.</li>
+                        <li>Automated performance reporting, reducing manual labor significantly, enhancing operational efficiency.</li>
+                        <li>Developed a real-time monitoring application enriching visibility for all support operations.</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
-        <section class="section">
-            <h2 class="text-4xl underline">The Codex of Knowledge</h2>
-            <h3 class="text-3xl mt-4">Education</h3>
-            <p><span class="highlight">Degree:</span> Bachelor of Software Engineering</p>
-            <p><span class="highlight">Institution:</span> Universidad Nacional Estatal a Distancia, Costa Rica</p>
-            <p><span class="highlight">Period:</span> Jan 2015 – Jan 2018</p>
-
-            <h3 class="text-3xl mt-4">Certifications</h3>
-            <ul class="list-disc list-inside">
-                <li><strong>Python Fundamentals, Data Structures, and Algorithms</strong> - Nucamp Coding Bootcamp (Dec 2023)</li>
-                <li><strong>Desarrollo de RESTful Web APIs con .NET Core</strong> - Universidad Cenfotec (Jan 2023)</li>
+        <section class="artifacts section">
+            <h3 class="section-title">📦 Artifacts Forge</h3>
+            <h4 class="project-title">Price Check - Restaurant Supply Chain Optimization Platform</h4>
+            <p>Description: A full-stack web application that automates supplier price comparison, order creation, and cost analysis across multiple suppliers for restaurant management.</p>
+            <p>Business Impact: Serving 4 restaurants managing $500,000/month in orders, significantly reducing manual ordering time and pricing errors.</p>
+            <ul class="features list-disc ml-5">
+                <li>Supplier Price Comparison Engine</li>
+                <li>Automated Email Ordering</li>
+                <li>Dynamic Cost Analytics Dashboard</li>
+                <li>Historical Order Data Management</li>
             </ul>
+            <p>Technologies Utilized: React, TypeScript, Firebase, Node.js, Firestore.</p>
+            <p>Deployment: Firebase Hosting with automated CI/CD.</p>
+            <p>Live Demo: <a href="https://organization-management-hub.firebaseapp.com">Access Here</a></p>
+            <p>Email for Demo: <strong>PriceCheckDemo@outlook.com</strong>, Password: <strong>Demo123</strong></p>
         </section>
 
-        <section class="section">
-            <h2 class="text-4xl underline">The Language of Shadows</h2>
-            <ul class="list-disc list-inside">
-                <li><span class="highlight">English:</span> C1 - Fluent, professional working proficiency</li>
-                <li><span class="highlight">Spanish:</span> Native speaker</li>
-            </ul>
+        <section class="education section">
+            <h3 class="section-title">📚 The Path of Knowledge</h3>
+            <p><strong>Bachelor of Software Engineering</strong>, Computer Software Engineering</p>
+            <p>Universidad Nacional Estatal a Distancia, Costa Rica | Jan 2015 – Jan 2018</p>
         </section>
 
-        <section class="section">
-            <h2 class="text-4xl underline">The Ethereal Attributes</h2>
-            <ul class="list-disc list-inside">
-                <li>Analytical problem-solver with a keen attention to detail</li>
-                <li>Adaptable and swift learner in new technologies</li>
-                <li>Strong communicator bridging technical and business realms</li>
-                <li>Empowered team player with mentoring experience</li>
-                <li>Dedicated to clean architecture and maintainable code</li>
-                <li>Passionate about innovations in AI and automation</li>
+        <section class="certifications section">
+            <h3 class="section-title">📜 Credentials of the Mind</h3>
+            <div>
+                <strong>Python Fundamentals, Data Structures, and Algorithms</strong> - Nucamp Coding Bootcamp (Dec 2023) - Advanced Python training in optimization strategies.
+            </div>
+            <div>
+                <strong>Desarrollo de RESTful Web APIs con .NET Core</strong> - Universidad Cenfotec (Jan 2023) - Detailed training on API development with .NET Core.
+            </div>
+        </section>
+
+        <section class="linguistic-skills section">
+            <h3 class="section-title">🗣️ Linguistic Proficiencies</h3>
+            <div>
+                <strong>English:</strong> Fluent - Professional working proficiency (C1)
+            </div>
+            <div>
+                <strong>Spanish:</strong> Native speaker
+            </div>
+        </section>
+
+        <section class="attributes section">
+            <h3 class="section-title">🌌 Professional Attributes</h3>
+            <ul class="list-disc ml-5">
+                <li>Analytical problem-solver with attention to detail.</li>
+                <li>Adaptable and quick learner of new technologies.</li>
+                <li>Strong communicator bridging technical and business domains.</li>
+                <li>Team player with mentoring and leadership experience.</li>
+                <li>Focus on clean architecture and maintainable code.</li>
+                <li>Passionate about AI and automation innovations.</li>
             </ul>
         </section>
     </div>
 </body>
+
 </html>
 ```

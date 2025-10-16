@@ -1,257 +1,141 @@
 ```html
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ariel Lopez - Full Stack Web Developer</title>
+    <title>Ariel Lopez's CV - The Web-Slinger Journey</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
         body {
-            background-color: #1f1f2a;
-            color: #ffffff;
+            background-color: #1a1a1a; /* Dark background for high contrast */
+            color: #f5f5f5; /* Light text for readability */
         }
-
-        h1, h2, h3, h4 {
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+        h1, h2, h3, h4, h5, h6 {
+            color: #ff4757; /* Bright Red */
         }
-
-        .section {
-            border: 2px solid #ff4a00;
-            border-radius: 10px;
-            padding: 20px;
-            margin-bottom: 20px;
+        .highlight {
+            color: #003366; /* Deep Blue */
         }
-
-        .header {
-            background: linear-gradient(135deg, #ff4a00 0%, #344c92 100%);
-        }
-
-        .contact-info {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 10px;
-            border-radius: 8px;
-        }
-
-        .project {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 15px;
-            border-radius: 8px;
-        }
-
-        .skills {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 10px;
-            border-radius: 8px;
-        }
-
-        .footer {
-            font-size: 0.8em;
-            color: #ffeb3b;
+        .icon {
+            font-size: 2rem;
+            display: inline-block;
+            margin-right: 0.5rem;
         }
     </style>
 </head>
-
-<body>
-    <header class="header py-10 text-center">
-        <h1 class="text-5xl font-bold">Ariel Lopez</h1>
-        <h2 class="text-3xl">Full Stack Web Developer</h2>
-        <div class="contact-info mt-4">
-            <p>🌍 Myrtle Beach, SC 29575</p>
-            <p>📞 (843) 504-1800</p>
-            <p>📧 <a href="mailto:ariel_91_aj@hotmail.com" class="underline">ariel_91_aj@hotmail.com</a></p>
-            <p>🔗 <a href="https://www.linkedin.com/in/ariel-lopez-castillo91/" target="_blank" class="underline">LinkedIn</a> | <a href="https://github.com/Ratriel" target="_blank" class="underline">GitHub</a></p>
-        </div>
+<body class="p-10">
+    <header class="text-center mb-8">
+        <h1 class="text-4xl font-bold">Ariel Lopez</h1>
+        <h2 class="text-2xl">Full Stack Web Developer</h2>
+        <p class="text-lg"><span class="icon">🕷️</span> Myrtle Beach, SC 29575 | 📞 (843) 504-1800 | ✉️ ariel_91_aj@hotmail.com</p>
+        <p class="text-lg"><a class="highlight" href="https://www.linkedin.com/in/ariel-lopez-castillo91/">LinkedIn</a> | <a class="highlight" href="https://github.com/Ratriel">GitHub</a></p>
     </header>
 
-    <main class="px-4">
-        <section class="section">
-            <h3 class="text-2xl font-bold">Mission Briefing</h3>
-            <p>{{summary.narrative}}</p>
-        </section>
+    <section class="mb-10">
+        <h3 class="text-3xl font-bold">Web Fluid Formulas: Summary</h3>
+        <p class="mt-4">
+            Experienced Full Stack Developer with 8+ years building scalable web and mobile applications. Skilled in Python, React, Node.js, and cloud technologies (AWS, Azure, Firebase), with a strong background in AI integrations, data scraping, and automation.
+        </p>
+        <p class="mt-4">
+            I'm an experienced Full Stack Developer with over 8 years of expertise in building scalable web and mobile applications. My passion lies in crafting robust solutions from front to back, ensuring both exceptional user experiences and efficient backend performance.
+        </p>
+        <p class="mt-4">
+            I thrive at the intersection of clean architecture, performance optimization, and intelligent system design — blending backend robustness with intuitive frontend experiences.
+        </p>
+    </section>
 
-        <section class="section">
-            <h3 class="text-2xl font-bold">Quantum Code Forge: Technical Skills</h3>
-            <div class="skills grid grid-cols-2 gap-4">
-                <div>
-                    <h4 class="text-xl font-semibold">Frontend and Mobile Development</h4>
-                    <ul>
-                        <li>React</li>
-                        <li>React Native</li>
-                        <li>TypeScript</li>
-                        <li>Angular</li>
-                        <li>RxJS</li>
-                        <li>Material-UI</li>
-                        <li>React Router</li>
-                        <li>Redux</li>
-                        <li>Context API</li>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript</li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="text-xl font-semibold">Backend and API Technologies</h4>
-                    <ul>
-                        <li>Python</li>
-                        <li>Django</li>
-                        <li>Django REST Framework</li>
-                        <li>Flask</li>
-                        <li>SQLAlchemy</li>
-                        <li>Node.js</li>
-                        <li>Express</li>
-                        <li>C#</li>
-                        <li>.NET Core</li>
-                        <li>RESTful APIs</li>
-                        <li>WebSockets</li>
-                        <li>AJAX</li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="text-xl font-semibold">Cloud & DevOps</h4>
-                    <ul>
-                        <li>AWS</li>
-                        <li>Azure</li>
-                        <li>Firebase</li>
-                        <li>Docker</li>
-                        <li>GitHub Actions</li>
-                        <li>CI/CD pipelines</li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="text-xl font-semibold">AI & Automation</h4>
-                    <ul>
-                        <li>AI Agents</li>
-                        <li>Data Scraping</li>
-                        <li>Automation Pipelines</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section class="section">
-            <h3 class="text-2xl font-bold">Quest Log: Experience</h3>
-
-            <div class="project">
-                <h4 class="text-xl font-semibold">Accenture</h4>
-                <p><strong>Position:</strong> Software Developer / Lead Engineer</p>
-                <p><strong>Location:</strong> Costa Rica (Remote)</p>
-                <p><strong>Period:</strong> Nov 2023 – Present</p>
-                <p><strong>Description:</strong> Eagerly lead full-stack and backend development projects, crafting robust solutions while mentoring a battalion of junior engineers.</p>
-                <ul>
-                    <li>Engineered microservices with Flask and PostgreSQL data integration.</li>
-                    <li>Orchestrated automated data collection using advanced tools like Playwright and BeautifulSoup.</li>
-                    <li>Designed AI agents, deftly defining system prompts for seamless external tool integration.</li>
-                    <li>Piloted Docker environments and data migrations with expert precision.</li>
-                    <li>Mentored the next generation of developers, leading problem-solving sessions.</li>
-                </ul>
-            </div>
-
-            <div class="project">
-                <h4 class="text-xl font-semibold">First Factory</h4>
-                <p><strong>Position:</strong> Full Stack Engineer</p>
-                <p><strong>Location:</strong> Costa Rica (Remote)</p>
-                <p><strong>Period:</strong> Sep 2020 – Oct 2023</p>
-                <p><strong>Description:</strong> Engaged in high-stakes combat on various client projects, honing full-stack skills in a relentless quest for excellence.</p>
-                <h5 class="font-semibold">Project: Peak Reservations</h5>
-                <p>Full Stack Developer on a restaurant reservation platform.</p>
-                <ul>
-                    <li>Developed secure and production-ready applications for the App Store and Google Play.</li>
-                    <li>Streamlined API architecture and mobile deployment, optimizing the user journey.</li>
-                    <li>Secured transactions through expert integration of Stripe payment systems.</li>
-                </ul>
-                <h5 class="font-semibold">Project: Measurabl</h5>
-                <p>Front-End Engineer on a real estate ESG data platform modernization.</p>
-                <ul>
-                    <li>Revolutionized legacy systems by modernizing AngularJS to advanced Angular + RxJS architecture.</li>
-                    <li>Crafted reusable components that adhered pixel-perfectly to the design specifications.</li>
-                </ul>
-            </div>
-
-            <div class="project">
-                <h4 class="text-xl font-semibold">Hewlett Packard Enterprise / DXC Technology</h4>
-                <p><strong>Position:</strong> Software Developer (formerly Technical Support)</p>
-                <p><strong>Location:</strong> Costa Rica (On-site)</p>
-                <p><strong>Period:</strong> Mar 2017 – Aug 2019</p>
-                <p><strong>Description:</strong> Transformed from a support role into a formidable software developer, crafting solutions to enhance operational efficiency.</p>
-                <ul>
-                    <li>Customized call center workflows in ServiceNow, automating mundane tasks.</li>
-                    <li>Developed a real-time monitoring app to enhance HelpDesk operations.</li>
-                    <li>Implemented automation using Active Directory integrations and API calls.</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="section">
-            <h3 class="text-2xl font-bold">Artifact Forging: Projects</h3>
-
-            <div class="project">
-                <h4 class="text-xl font-semibold">Price Check</h4>
-                <p><strong>Type:</strong> Full Stack Web Application</p>
-                <p><strong>Description:</strong> An innovative platform optimizing restaurant supply ordering and cost management for Captain's George Seafood Restaurant.</p>
-                <p><strong>Impact Metrics:</strong> Used by 4 restaurants managing $500,000/month in orders, significantly reducing order errors and manual processing time.</p>
-                <h5 class="font-semibold">Features</h5>
-                <ul>
-                    <li>Supplier Price Comparison Engine</li>
-                    <li>Personalized Order Templates</li>
-                    <li>Automated Email Ordering</li>
-                    <li>Invoice & Delivery Verification</li>
-                    <li>Cost Analytics Dashboard</li>
-                </ul>
-                <p><strong>Technologies Used:</strong> <span>React, Node.js, Firebase, Firestore</span></p>
-                <p><strong>Live Demo:</strong> <a href="https://organization-management-hub.firebaseapp.com" class="underline">Try it now!</a></p>
-                <p><strong>Demo Email:</strong> PriceCheckDemo@outlook.com <strong>Password:</strong> Demo123</p>
-            </div>
-        </section>
-
-        <section class="section">
-            <h3 class="text-2xl font-bold">Cybertron Education Sector</h3>
-            <p><strong>Degree:</strong> Bachelor of Software Engineering</p>
-            <p><strong>Institution:</strong> Universidad Nacional Estatal a Distancia</p>
-            <p><strong>Location:</strong> Costa Rica</p>
-            <p><strong>Period:</strong> Jan 2015 – Jan 2018</p>
-        </section>
-
-        <section class="section">
-            <h3 class="text-2xl font-bold">Energon Certifications</h3>
-            <div>
-                <p><strong>Python Fundamentals, Data Structures, and Algorithms</strong></p>
-                <p><em>Issuer:</em> Nucamp Coding Bootcamp | <em>Date:</em> Dec 2023</p>
-                <p>Advanced Python programming covering data structures, algorithm optimization, and best practices.</p>
-            </div>
-            <div>
-                <p><strong>Desarrollo de RESTful Web APIs con .NET Core</strong></p>
-                <p><em>Issuer:</em> Universidad Cenfotec | <em>Date:</em> Jan 2023</p>
-                <p>RESTful API development with .NET Core, including architecture patterns and deployment strategies.</p>
-            </div>
-        </section>
-
-        <section class="section">
-            <h3 class="text-2xl font-bold">Languages of Cybertron</h3>
-            <ul>
-                <li><strong>English:</strong> C1 - Fluent - Professional working proficiency</li>
-                <li><strong>Spanish:</strong> Native Speaker</li>
+    <section class="mb-10">
+        <h3 class="text-3xl font-bold">Daily Bugle Headlines: Quest Log</h3>
+        <div class="mb-6">
+            <h4 class="text-2xl font-semibold">Accenture</h4>
+            <p><span class="highlight">Software Developer / Lead Engineer</span> | Columbia, SC (Remote) | Nov 2023 – Present</p>
+            <p>In this role, I lead full-stack and backend development projects with hands-on coding, system design, and team leadership responsibilities. I built microservices with Flask, SQLAlchemy, and Alembic, along with Django REST APIs integrating PostgreSQL and other data sources.</p>
+            <ul class="list-disc ml-5">
+                <li>Developed reusable tools for data ingestion and transformation.</li>
+                <li>Managed Docker environments, Docker Compose configurations, and database migrations.</li>
+                <li>Mentored junior engineers and led project planning meetings, sprint demos, and client presentations.</li>
             </ul>
-        </section>
+        </div>
 
-        <section class="section">
-            <h3 class="text-2xl font-bold">Professional Attributes</h3>
-            <ul>
-                <li>Analytical problem-solver with attention to detail</li>
-                <li>Adaptable and quick learner in new technologies</li>
-                <li>Strong communicator bridging technical and business domains</li>
-                <li>Team player with mentoring and leadership experience</li>
-                <li>Focused on clean architecture and maintainable code</li>
-                <li>Passionate about AI and automation innovations</li>
+        <div class="mb-6">
+            <h4 class="text-2xl font-semibold">First Factory</h4>
+            <p><span class="highlight">Full Stack Engineer</span> | New York, USA (Remote) | Sep 2020 – Oct 2023</p>
+            <p>Contributed to various internal and client projects, enhancing my full-stack capabilities with a focus on robust frontend experiences and backend integrations.</p>
+            <h5 class="text-xl font-bold">Key Projects:</h5>
+            <p><strong>Peak Reservations:</strong> Developed a restaurant reservation platform delivering web and mobile applications for U.S.-based clients.</p>
+            <ul class="list-disc ml-5">
+                <li>Lead full-stack development from API architecture to mobile deployment.</li>
+                <li>Integrated secure payment processing with Stripe.</li>
+                <li>Participated actively in Agile ceremonies, ensuring high-quality deliverables.</li>
             </ul>
-        </section>
-    </main>
+        </div>
 
-    <footer class="footer text-center py-4">
-        <p>🚀 Transforming the digital universe, one line of code at a time. Contact me to initiate your project transformation!</p>
+        <div class="mb-6">
+            <h4 class="text-2xl font-semibold">Hewlett Packard Enterprise / DXC Technology</h4>
+            <p><span class="highlight">Software Developer (formerly Technical Support)</span> | Costa Rica (On-site) | Mar 2017 – Aug 2019</p>
+            <p>Transitioned from Technical Support to Software Development, where I built automation and reporting systems enhancing call center operations.</p>
+            <ul class="list-disc ml-5">
+                <li>Customized ServiceNow UI for call center workflows.</li>
+                <li>Automated user provisioning with Active Directory integrations.</li>
+                <li>Developed a real-time agent monitoring app using WebSockets for visibility.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="mb-10">
+        <h3 class="text-3xl font-bold">Villains Defeated: Key Projects</h3>
+        <div class="mb-6">
+            <h4 class="text-2xl font-semibold">Price Check</h4>
+            <p><span class="highlight">Full Stack Web Application</span> - Restaurant Supply Chain Optimization Platform</p>
+            <p>This application optimizes restaurant supply ordering and cost management, used by 4 restaurants managing $500,000/month in orders.</p>
+            <ul class="list-disc ml-5">
+                <li>Automated supplier price comparison, reducing manual errors.</li>
+                <li>Achieved 99.9% uptime with a serverless architecture.</li>
+                <li>Designed intuitive UI, ensuring ease of use for non-technical staff.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="mb-10">
+        <h3 class="text-3xl font-bold">Power Set: Technical Skills</h3>
+        <p class="mt-4"><span class="highlight">Frontend & Mobile:</span> React, React Native, TypeScript, Angular, RxJS, Material-UI, React Router, Redux, Context API, HTML5, CSS3, JavaScript</p>
+        <p class="mt-4"><span class="highlight">Backend & API:</span> Python, Django, Flask, SQLAlchemy, Node.js, Express, C#, .NET Core, RESTful APIs, WebSockets, AJAX</p>
+        <p class="mt-4"><span class="highlight">Databases:</span> PostgreSQL, SQL Server, Firestore, ORM, Alembic, Entity Framework, Database Migrations</p>
+        <p class="mt-4"><span class="highlight">Cloud & DevOps:</span> AWS, Azure, Firebase, Docker, GitHub Actions, CI/CD pipelines, GoDaddy DNS</p>
+        <p class="mt-4"><span class="highlight">AI & Automation:</span> AI Agents, Data Scraping, BeautifulSoup, Automation Pipelines</p>
+        <p class="mt-4"><span class="highlight">Design & Collaboration:</span> Figma, Agile/Scrum, Jira, Mentoring</p>
+    </section>
+
+    <section class="mb-10">
+        <h3 class="text-3xl font-bold">Artifact Forging: Education & Certifications</h3>
+        <p><span class="highlight">Bachelor of Software Engineering</span> | Computer Software Engineering - Universidad Nacional Estatal a Distancia, Costa Rica | Jan 2015 – Jan 2018</p>
+        <h4 class="text-xl font-semibold">Certifications:</h4>
+        <p><span class="highlight">Python Fundamentals, Data Structures, and Algorithms</span> - Nucamp Coding Bootcamp | Dec 2023</p>
+        <p><span class="highlight">Desarrollo de RESTful Web APIs con .NET Core</span> - Universidad Cenfotec | Jan 2023</p>
+    </section>
+
+    <section class="mb-10">
+        <h3 class="text-3xl font-bold">Spidey-Sense: Languages</h3>
+        <p class="mt-4"><span class="highlight">English:</span> Fluent - Professional working proficiency (C1)</p>
+        <p class="mt-4"><span class="highlight">Spanish:</span> Native speaker</p>
+    </section>
+
+    <section class="mb-10">
+        <h3 class="text-3xl font-bold">Web-Slinger Attributes: Professional Qualities</h3>
+        <ul class="list-disc ml-5">
+            <li>Analytical problem-solver with attention to detail.</li>
+            <li>Adaptable and quick learner in new technologies.</li>
+            <li>Strong communicator bridging technical and business domains.</li>
+            <li>Team player with mentoring and leadership experience.</li>
+            <li>Focused on clean architecture and maintainable code.</li>
+            <li>Passionate about AI and automation innovations.</li>
+        </ul>
+    </section>
+
+    <footer class="text-center mt-10">
+        <p class="text-sm">&copy; 2023 Ariel Lopez. All rights reserved. Created with passion and a superpowered touch!</p>
     </footer>
 </body>
-
 </html>
 ```

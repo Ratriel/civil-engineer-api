@@ -9,144 +9,169 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
         body {
-            background-color: #1a1a1a;
-            color: #f0f0f0;
+            background-color: #1e1e2f; /* Dark background for a sci-fi feel */
         }
 
-        h1, h2, h3, h4 {
-            color: #FFD700; /* Dirty Gold */
+        h1, h2, h3, h4, h5, h6 {
+            color: #f0c040; /* Bright Yellow */
         }
 
-        .bg-dark {
-            background-color: #000;
+        p, ul, li {
+            color: #ffffff; /* White for contrast */
         }
 
-        .bg-offwhite {
-            background-color: #f8f8f8;
+        .hero {
+            background: linear-gradient(to right, #df3a20, #007bff); /* Fire Red to Electric Blue */
+            padding: 1rem;
+            border-radius: 0.5rem;
         }
 
-        .highlight {
-            color: #00BFFF; /* Metallic Blue */
+        .section-title {
+            color: #b44f98; /* Decepticon Purple */
         }
 
-        .section {
-            border: 2px solid #FFD700;
-            border-radius: 15px;
-            padding: 20px;
-            margin: 10px 0;
-            background-color: #2a2a2a;
+        .impact {
+            background-color: #2d2d2d; /* Darker card background */
+            border-left: 5px solid #f0c040; /* Bright Yellow left border for emphasis */
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .metric {
+            font-weight: bold;
+            color: #f0c040;
         }
     </style>
 </head>
 
-<body class="font-sans">
-
-    <div class="max-w-4xl mx-auto p-6">
-        <header class="text-center mb-10">
-            <h1 class="text-5xl font-extrabold">Ariel Lopez</h1>
-            <h2 class="text-3xl italic">Full Stack Web Developer</h2>
-            <p class="mt-2">📍 Myrtle Beach, SC 29575</p>
-            <p class="mt-1">📞 (843) 504-1800</p>
-            <p class="mt-1">✉️ <a href="mailto:ariel_91_aj@hotmail.com" class="highlight">ariel_91_aj@hotmail.com</a></p>
-            <p class="mt-1">🔗 <a href="https://www.linkedin.com/in/ariel-lopez-castillo91/" class="highlight">LinkedIn</a> |
-                <a href="https://github.com/Ratriel" class="highlight"> GitHub</a></p>
+<body>
+    <div class="container mx-auto p-5">
+        <header class="hero mb-8">
+            <h1 class="text-5xl font-bold">Ariel Lopez</h1>
+            <h2 class="text-3xl">Full Stack Web Developer</h2>
+            <p class="mt-2">Location: Myrtle Beach, SC 29575</p>
+            <div class="mt-4">
+                <p>📞 <strong>(843) 504-1800</strong></p>
+                <p>✉️ <strong><a href="mailto:ariel_91_aj@hotmail.com">ariel_91_aj@hotmail.com</a></strong></p>
+                <p>🔗 <strong><a href="https://www.linkedin.com/in/ariel-lopez-castillo91/" class="text-yellow-400">LinkedIn</a></strong></p>
+                <p>💻 <strong><a href="https://github.com/Ratriel" class="text-yellow-400">GitHub</a></strong></p>
+            </div>
         </header>
 
-        <section class="section">
-            <h3 class="text-4xl font-bold">Mission Summary</h3>
-            <p class="mt-2">🛠️ <strong>Experienced Full Stack Developer</strong> with 8+ years building scalable web and mobile applications. Skilled in <strong>Python, React, Node.js</strong>, and cloud technologies (<strong>AWS, Azure, Firebase</strong>), with a strong background in AI integrations, data scraping, and automation.</p>
+        <section class="mb-10">
+            <h3 class="section-title text-4xl">Cybertron Mission Summary</h3>
+            <p class="text-lg my-4">🚀 Experienced Full Stack Developer with 8+ years building scalable web and mobile applications. Skilled in Python, React, Node.js, and cloud technologies (AWS, Azure, Firebase). Strong background in AI integrations, data scraping, and automation.</p>
+            <p>🌌 Narrative: I'm a warrior of code, crafting robust solutions that harmonize user experience and backend efficiency. My arsenal includes React, Python, and cloud-based technologies, making me a versatile soldier in the digital battlefield.</p>
         </section>
 
-        <section class="section">
-            <h3 class="text-4xl font-bold">Quest Log</h3>
-            <div>
-                <h4 class="text-2xl font-bold">Accenture - Software Developer / Lead Engineer</h4>
-                <p class="italic">Costa Rica (Remote) | Nov 2023 – Present</p>
-                <p>Lead full-stack and backend development projects with hands-on coding, system design, and team leadership responsibilities.</p>
-                <ul class="list-disc pl-5">
-                    <li>Mastered the art of building microservices with <strong>Flask, SQLAlchemy,</strong> and <strong>Django REST APIs</strong>.</li>
-                    <li>Developed Python scripts using <strong>Playwright, Requests,</strong> and <strong>BeautifulSoup</strong> to extract and process data for APIs.</li>
-                    <li>Designed and deployed <strong>AI agents</strong> that harnessed Azure's power for intelligent solutions.</li>
-                    <li>Managed Docker environments and migrations like a pro.</li>
-                    <li>Mentored junior engineers, crafting a legacy of leadership.</li>
-                </ul>
-            </div>
-            <div class="my-4">
-                <h4 class="text-2xl font-bold">First Factory - Full Stack Engineer</h4>
-                <p class="italic">Costa Rica (Remote) | Sep 2020 – Oct 2023</p>
-                <p>Through a mix of internal initiatives and client projects, I honed my craft and contributed to impactful solutions for U.S. clients.</p>
-                <div class="my-2">
-                    <h5 class="text-xl font-bold">Peak Reservations</h5>
-                    <p>A restaurant reservation platform that achieved tremendous impacts:</p>
-                    <ul class="list-disc pl-5">
-                        <li>Delivered production-ready apps to App Store and Google Play with secure payment processing.</li>
-                        <li>Led full-stack development from API architecture to mobile deployment.</li>
-                        <li>Integrated <strong>Stripe</strong> payment processing for seamless transaction flows.</li>
-                    </ul>
-                </div>
-                <div>
-                    <h5 class="text-xl font-bold">Measurabl</h5>
-                    <p>Modernized an ESG platform for U.S. real estate clients, crafting pixel-perfect solutions and ensuring cross-functionality.</p>
-                </div>
-            </div>
-            <div>
-                <h4 class="text-2xl font-bold">Hewlett Packard Enterprise / DXC Technology - Software Developer</h4>
-                <p class="italic">Costa Rica (On-site) | Mar 2017 – Aug 2019</p>
-                <p>Transitioned from Technical Support to building automation systems that revolutionized operational efficiency.</p>
-                <ul class="list-disc pl-5">
-                    <li>Customized ServiceNow UI to optimize call center workflow.</li>
-                    <li>Automated user provisioning and reporting to reduce operational overhead.</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="section">
-            <h3 class="text-4xl font-bold">Artifact Forging</h3>
-            <div>
-                <h4 class="text-2xl font-bold">Price Check</h4>
-                <p class="italic">Restaurant Supply Chain Optimization Platform</p>
-                <p>Built to optimize supplier order management for multiple restaurants, achieving:</p>
-                <ul class="list-disc pl-5">
-                    <li>Real-time visibility into supply costs across 4 restaurants managing $500,000/month.</li>
-                    <li>Reduced manual ordering time and pricing errors dramatically.</li>
-                    <li>Enhanced data analytics for informed decision-making in ordering processes.</li>
-                </ul>
-                <p>🚀 Explore it: <a href="https://organization-management-hub.firebaseapp.com" class="highlight">Demo Application</a></p>
-                <p>👤 Login:</p>
-                <p>Email: <strong>PriceCheckDemo@outlook.com</strong> | Password: <strong>Demo123</strong></p>
-            </div>
-        </section>
-
-        <section class="section">
-            <h3 class="text-4xl font-bold">Education & Certifications</h3>
-            <div>
-                <h4 class="text-2xl font-bold">🏫 Bachelor of Software Engineering</h4>
-                <p>Computer Software Engineering - Universidad Nacional Estatal a Distancia, Costa Rica (Jan 2015 – Jan 2018)</p>
-            </div>
-            <div class="my-4">
-                <h4 class="text-2xl font-bold">📜 Certifications</h4>
-                <ul class="list-disc pl-5">
-                    <li><strong>Python Fundamentals, Data Structures, and Algorithms</strong> - Nucamp Coding Bootcamp (Dec 2023)</li>
-                    <li><strong>Desarrollo de RESTful Web APIs con .NET Core</strong> - Universidad Cenfotec (Jan 2023)</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="section">
-            <h3 class="text-4xl font-bold">Linguistic Armory</h3>
+        <section class="mb-10">
+            <h3 class="section-title text-4xl">Technical Arsenal</h3>
             <ul class="list-disc pl-5">
-                <li><strong>English:</strong> C1 - Fluent Professional Working Proficiency</li>
-                <li><strong>Spanish:</strong> Native Speaker</li>
+                <li>🔧 <strong>Frontend & Mobile:</strong> React, Angular, TypeScript, CSS3, JavaScript</li>
+                <li>🔩 <strong>Backend & API:</strong> Python, Node.js, RESTful APIs, Flask</li>
+                <li>🔍 <strong>Databases:</strong> PostgreSQL, SQL Server, Firebase</li>
+                <li>☁️ <strong>Cloud & DevOps:</strong> AWS, Azure, Docker, CI/CD</li>
+                <li>🔒 <strong>Testing & QA:</strong> Unit Testing, Jest, TDD</li>
+                <li>🤖 <strong>AI & Automation:</strong> AI Agents, Data Scraping</li>
+                <li>🎨 <strong>Design & Collaboration:</strong> Figma, Agile/Scrum</li>
             </ul>
         </section>
 
-        <section class="section">
-            <h3 class="text-4xl font-bold">Professional Attributes</h3>
-            <ul class="list-disc pl-5">
-                <li>Analytical problem-solver with a focus on detail.</li>
-                <li>Adaptable and quick learner in new technologies.</li>
-                <li>Strong communicator bridging technical and business domains.</li>
-                <li>Passionate about AI and automation innovations.</li>
+        <section class="mb-10">
+            <h3 class="section-title text-4xl">Quest Log</h3>
+            <div class="impact">
+                <h4 class="text-xl font-bold">Accenture</h4>
+                <p><strong>Role:</strong> Software Developer / Lead Engineer</p>
+                <p><strong>Location:</strong> Columbia, South Carolina (Remote)</p>
+                <p><strong>Period:</strong> Nov 2023 – Present</p>
+                <p>⚔️ I lead full-stack development projects, crafting microservices and AI solutions, mentoring the next generation of coding warriors.</p>
+                <ul>
+                    <li>Built microservices with Flask and Django REST APIs integrating PostgreSQL.</li>
+                    <li>Automated data collection with Python scripts, enhancing API capabilities.</li>
+                    <li>Deployed AI agents, managing cloud resources in Azure for ultimate performance.</li>
+                </ul>
+                <p class="metric">🔑 Key Areas: Backend & Microservices, AI Integrations, Leadership</p>
+            </div>
+
+            <div class="impact">
+                <h4 class="text-xl font-bold">First Factory</h4>
+                <p><strong>Role:</strong> Full Stack Engineer</p>
+                <p><strong>Location:</strong> New York, United States (Remote)</p>
+                <p><strong>Period:</strong> Sep 2020 – Oct 2023</p>
+                <p>⚔️ Engaged in various client projects, honing the craft of full-stack development while collaborating across oceans.</p>
+                <h5 class="text-lg font-semibold">Peak Reservations Project</h5>
+                <ul>
+                    <li>Led development for a restaurant reservation platform, ensuring secure transactions with Stripe.</li>
+                    <li>Delivered applications to App Store and Google Play, enabling client interactions.</li>
+                </ul>
+                <p class="metric">🔑 Key Achievements: 99% client satisfaction with new app deployments</p>
+            </div>
+
+            <div class="impact">
+                <h4 class="text-xl font-bold">Hewlett Packard Enterprise / DXC Technology</h4>
+                <p><strong>Role:</strong> Software Developer</p>
+                <p><strong>Location:</strong> Costa Rica (On-site)</p>
+                <p><strong>Period:</strong> Mar 2017 – Aug 2019</p>
+                <p>⚔️ Transformed from technical support to developer, engineering automation systems.</p>
+                <ul>
+                    <li>Automated reporting processes, boosting efficiency by 35% across the board.</li>
+                    <li>Constructed real-time monitoring apps, enhancing visibility for stakeholders.</li>
+                </ul>
+                <p class="metric">🔑 Impact: Reduced manual work, saving hundreds of hours monthly.</p>
+            </div>
+        </section>
+
+        <section class="mb-10">
+            <h3 class="section-title text-4xl">Artifact Forging</h3>
+            <div class="impact">
+                <h4 class="text-xl font-bold">Price Check</h4>
+                <p><strong>Type:</strong> Full Stack Web Application</p>
+                <p><strong>Description:</strong> A platform optimizing restaurant supply management, reducing manual processes by 70%.</p>
+                <p><strong>Key Features:</strong></p>
+                <ul>
+                    <li>📊 Supplier Price Comparison Engine</li>
+                    <li>📑 Personalized Order Templates</li>
+                    <li>📧 Automated Email Ordering</li>
+                </ul>
+                <p>⚙️ Built with React, Node.js, and Firebase, it's a prototype of efficiency.</p>
+                <p class="metric">💡 Business Impact: Used by 4 restaurants managing $500,000/month, delivering significant operational efficiency.</p>
+            </div>
+        </section>
+
+        <section class="mb-10">
+            <h3 class="section-title text-4xl">Education & Certifications</h3>
+            <div class="impact">
+                <h4 class="text-xl font-bold">Bachelor of Software Engineering</h4>
+                <p><strong>Institution:</strong> Universidad Nacional Estatal a Distancia, Costa Rica</p>
+                <p><strong>Period:</strong> Jan 2015 – Jan 2018</p>
+            </div>
+            <div class="impact">
+                <h4 class="text-xl font-bold">Certifications</h4>
+                <ul>
+                    <li>📜 Python Fundamentals, Issued by Nucamp Coding Bootcamp, Dec 2023</li>
+                    <li>📜 Desarrollo de RESTful Web APIs con .NET Core, Issued by Universidad Cenfotec, Jan 2023</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mb-10">
+            <h3 class="section-title text-4xl">Languages of Communication</h3>
+            <ul>
+                <li>🇬🇧 English - C1 (Fluent, Professional Working Proficiency)</li>
+                <li>🇪🇸 Spanish - Native Speaker</li>
+            </ul>
+        </section>
+
+        <section class="mb-10">
+            <h3 class="section-title text-4xl">Professional Attributes</h3>
+            <ul>
+                <li>🤔 Analytical problem-solver with attention to detail</li>
+                <li>⚡ Adaptable and quick learner in new technologies</li>
+                <li>🤝 Strong communicator bridging technical and business domains</li>
+                <li>👥 Team player with mentoring and leadership experience</li>
+                <li>🔧 Focused on clean architecture and maintainable code</li>
+                <li>💡 Passionate about AI and automation innovations</li>
             </ul>
         </section>
     </div>
