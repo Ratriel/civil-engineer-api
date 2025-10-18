@@ -3,8 +3,8 @@ import os
 import json
 import random 
 from dotenv import load_dotenv
-from langchain_openai import ChatOpenAI
-from langchain.prompts import PromptTemplate
+from langchain.prompts.prompt import PromptTemplate
+from langchain_openai import ChatOpenAI 
 
 load_dotenv()
 
@@ -146,7 +146,7 @@ def generate_portfolio_html(theme_data: dict) -> str:
         # --- NUEVA LÓGICA DE GUARDADO ---
     
     # 1. Crear el nombre del archivo basado en el nombre del tema
-    file_slug = 6
+    file_slug = 1
     filename = f"cv{file_slug}.html"
     file_path = os.path.join(BASE_DIR, filename)
 
